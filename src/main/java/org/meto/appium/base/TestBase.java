@@ -57,11 +57,12 @@ public class TestBase extends AppiumUtils{
 		options.setApp("com.android.contacts");
 		options.setCapability("ignoreHiddenApiPolicyError", true);
 //		options.setChromedriverExecutable("C://Users//Praxis//OneDrive//Documents//automatizedTests//src//drivers//chromedriver");
-		options.setChromedriverExecutable("C://Users//Praxis//Documents//chromedriver");
+		//options.setChromedriverExecutable("C://Users//Praxis//Documents//chromedriver");
+		options.setChromedriverExecutable(System.getProperty("user.dir")+"//src//test//resources//driver//chromedriver");
 
 	//	options.setApp("C://code//AppiumFrameworkSurgir//src//test//resources//app//Surgir_debug_4.3.0_Release4.3.0.apk");
 	//	options.setApp("C://code//AppiumFrameworkSurgir3//src//test//resources//app//Surgir_debug4.5.0_test.apk");
-		options.setApp("C://code//AppiumFrameworkSurgir3//src//test//resources//app//03_21_2130_Surgir_debug_4.5.0_multiriesgo.apk"); //hasta las 11
+		options.setApp(System.getProperty("user.dir")+"//src//test//resources//app//03_21_2130_Surgir_debug_4.5.0_multiriesgo.apk"); //hasta las 11
 		
 		options.setAppWaitActivity("com.saucelabs.mydemoapp.rn.MainActivity"); //nuevo
 		
