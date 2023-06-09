@@ -4,8 +4,10 @@ import java.lang.reflect.Method;
 
 import org.meto.appium.base.TestBase;
 import org.meto.appium.pages.FormBusiness;
+import org.meto.appium.pages.FormContract;
 import org.meto.appium.pages.FormCustomer;
 import org.meto.appium.pages.FormPage;
+import org.meto.appium.pages.FormProposal;
 import org.meto.appium.pages.FormProspect;
 import org.meto.appium.pages.FormRse;
 import org.testng.annotations.BeforeMethod;
@@ -16,7 +18,10 @@ public class TFCustomer extends TestBase {
 	FormProspect formProspect;
 	FormCustomer formCustomer;
 	FormBusiness formBusiness;
-//	FormRse formRse;
+	FormRse formRse;
+	FormProposal formProposal;
+	FormContract formContract;
+	
 	
 	@BeforeMethod
 	public void beforeMethod(Method method) {
@@ -25,7 +30,8 @@ public class TFCustomer extends TestBase {
 		formProspect = new FormProspect(driver);
 		formCustomer = new FormCustomer(driver);
 		formBusiness = new FormBusiness(driver);
-	//	formRse = new FormRse(driver);
+		formRse = new FormRse(driver);
+		formProposal = new FormProposal(driver);
 		
 	}
 	
@@ -70,6 +76,7 @@ public class TFCustomer extends TestBase {
 		formCustomer.permanenciaAnios();
 		formCustomer.referenciaUbic("mi referencia ubic");
 		formCustomer.swipeScreenOneCustomer();
+		formCustomer.fotoHeritage(); /// nuevo
 	//	formCustomer.numeroDependient("1");
 		formCustomer.swipeScreenOneCustomer();
 		formCustomer.tipoReferencia();

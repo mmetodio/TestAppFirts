@@ -4,9 +4,12 @@
   import java.lang.reflect.Method;
   
   import org.meto.appium.base.TestBase; import
-  org.meto.appium.pages.FormBusiness; import
+  org.meto.appium.pages.FormBusiness;
+import org.meto.appium.pages.FormContract;
+import
   org.meto.appium.pages.FormCustomer; import org.meto.appium.pages.FormPage;
-  import org.meto.appium.pages.FormProspect; import
+import org.meto.appium.pages.FormProposal;
+import org.meto.appium.pages.FormProspect; import
   org.meto.appium.pages.FormRse; import org.testng.annotations.BeforeMethod;
   import org.testng.annotations.Test;
   
@@ -17,6 +20,8 @@
 	  FormCustomer formCustomer; 
 	  FormBusiness formBusiness; 
 	  FormRse formRse;
+	  FormProposal formProposal;
+	  FormContract formContract;
   
   @BeforeMethod public void beforeMethod(Method method) {
   
@@ -25,6 +30,8 @@
   formCustomer = new FormCustomer(driver); 
   formBusiness = new FormBusiness(driver); 
   formRse = new FormRse(driver);
+  formProposal = new FormProposal(driver);
+  formContract = new FormContract (driver);
   
   }
   

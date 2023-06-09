@@ -6,6 +6,7 @@ import org.meto.appium.base.TestBase;
 import org.meto.appium.pages.FormBusiness;
 import org.meto.appium.pages.FormCustomer;
 import org.meto.appium.pages.FormPage;
+import org.meto.appium.pages.FormProposal;
 import org.meto.appium.pages.FormProspect;
 import org.meto.appium.pages.FormRse;
 import org.testng.annotations.BeforeMethod;
@@ -17,6 +18,8 @@ public class TFBusiness extends TestBase {
 	FormCustomer formCustomer;
 	FormBusiness formBusiness;
 	FormRse formRse;
+	FormProposal formProposal;
+	
 	
 	@BeforeMethod
 	public void beforeMethod(Method method) {

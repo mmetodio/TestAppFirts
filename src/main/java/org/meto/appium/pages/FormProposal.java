@@ -1,8 +1,6 @@
 package org.meto.appium.pages;
 
 import java.time.Duration;
-import java.util.concurrent.TimeUnit;
-
 import org.meto.appium.utils.AndroidActions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -17,6 +15,7 @@ import io.appium.java_client.remote.MobilePlatform;
 
 public class FormProposal extends AndroidActions {
 	AndroidDriver driver;
+	private String dsegmento;
 	
 	public FormProposal(AndroidDriver driver) {
 		super(driver);
@@ -31,6 +30,13 @@ public class FormProposal extends AndroidActions {
 	//MobileElement el3 = (MobileElement) driver.findElementByXPath("(//android.widget.ImageButton[@content-desc=\"Mostrar menú desplegable\"])[1]");
 	@AndroidFindBy(xpath="(//android.widget.ImageButton[@content-desc=\"Mostrar menú desplegable\"])[1]")
 	private WebElement mdesp;
+	
+	//Segmento  id  //  pe.com.surgir.surgirapp:id/tv_segment
+	// xpath === 	/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/androidx.viewpager.widget.ViewPager/androidx.recyclerview.widget.RecyclerView/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.RelativeLayout/android.widget.RelativeLayout[1]/android.widget.TextView[2]
+	//String segmento = driver.findElement(By.id("pe.com.surgir.surgirapp:id/tv_segment")).getText();
+	//@AndroidFindBy(id="pe.com.surgir.surgirapp:id/tv_segment")
+	@AndroidFindBy(xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/androidx.viewpager.widget.ViewPager/androidx.recyclerview.widget.RecyclerView/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.RelativeLayout/android.widget.RelativeLayout[1]/android.widget.TextView[2]")
+	private WebElement segmentx;
 	
 	//driver.findElement(By.xpath("//android.widget.EditText[@text='Destino del préstamo']")).click();
 	@AndroidFindBy(xpath="//android.widget.EditText[@text='Destino del préstamo']")
@@ -120,7 +126,9 @@ public class FormProposal extends AndroidActions {
 	
 	//driver.findElement(By.xpath("//*[@text='Parentesco']")).click(); 
 	// /hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout[3]/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText
-	@AndroidFindBy(xpath="/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout[3]/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText")
+	//@AndroidFindBy(xpath="/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout[3]/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText")
+	//MobileElement el1 = (MobileElement) driver.findElementById("pe.com.surgir.surgirapp:id/dialog_relationship");
+	@AndroidFindBy(id="pe.com.surgir.surgirapp:id/dialog_relationship")
 	private WebElement selectparent;
 	
 	//MobileElement elp9 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout[4]/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.ImageButton");
@@ -136,13 +144,21 @@ public class FormProposal extends AndroidActions {
 	private WebElement addben;
 	
 	//MobileElement elP1 = (MobileElement) driver.findElementById("pe.com.surgir.surgirapp:id/btnFormBusinessSave");
-	@AndroidFindBy(xpath="pe.com.surgir.surgirapp:id/btnFormBusinessSave")
+	@AndroidFindBy(id="pe.com.surgir.surgirapp:id/btnFormBusinessSave")
 	private WebElement saveprop;
 	
 	//MobileElement el2 = (MobileElement) driver.findElementById("pe.com.surgir.surgirapp:id/btnFormBusinessNext");
-	@AndroidFindBy(xpath="pe.com.surgir.surgirapp:id/btnFormBusinessNext")
+	@AndroidFindBy(id="pe.com.surgir.surgirapp:id/btnFormBusinessNext")
 	private WebElement nextprop;
 	
+	//Contrato
+	//MobileElement el1 = (MobileElement) driver.findElementByXPath("//android.widget.LinearLayout[@content-desc=\"Contrato\"]/android.widget.TextView");
+	@AndroidFindBy(xpath="//android.widget.LinearLayout[@content-desc=\"Contrato\"]/android.widget.TextView")
+	private WebElement ncontrato;
+	
+	//Propuesta
+	@AndroidFindBy(xpath="//android.widget.LinearLayout[@content-desc=\"Propuesta\"]/android.widget.TextView")
+	private WebElement npropuesta;
 	
 	//Botón Listo de galeria
 	@AndroidFindBy(id="pe.com.surgir.surgirapp:id/button_gallery_listo")
@@ -152,7 +168,20 @@ public class FormProposal extends AndroidActions {
 	public FormProposal producto() throws InterruptedException {
 		mdesp.click();
 		product();
-		Thread.sleep(10000);
+		Thread.sleep(15000);
+		return this;
+		
+	}
+	
+	// aqui capturo el valos del segmento en propuesta
+	public FormProposal segmentos() {
+		//dsegmento
+	//	 Contexto contexto = new Contexto();
+		 
+		String segmentis = segmentx.getText();
+		segmentx.getText();
+	//	this.segmentx = segmentis;
+		System.out.println(segmentis);
 		return this;
 		
 	}
@@ -191,7 +220,7 @@ public class FormProposal extends AndroidActions {
 	
 	public FormProposal calculaTasa() throws InterruptedException {
 		calctas.click();
-		Thread.sleep(7000);
+		Thread.sleep(9000);
 		return this;
 		
 	}
@@ -298,10 +327,11 @@ public class FormProposal extends AndroidActions {
 		return this;
 	}
 	
-	public FormProposal relationship(String relship) {
+	public FormProposal relationship() {
 		selectparent.click();
-		scrollToText(relship);
-		driver.findElement(By.xpath("//*[@text='"+relship+"']")).click();
+		scrollToTextRelation();
+		//((PressesKey) driver).pressKey(new KeyEvent(AndroidKey.ESCAPE));
+	//	driver.findElement(By.xpath("//*[@text='"+relship+"']")).click();
 		//parentesc();
 		return this;
 		
@@ -320,20 +350,9 @@ public class FormProposal extends AndroidActions {
 		
 	}
 	
-	public FormProposal saveBeneficiaries() {
+	public FormProposal saveBeneficiaries() throws InterruptedException {
 		addben.click();
-		return this;
-		
-	}
-	
-	public FormProposal saveProposal() {
-		saveprop.click();
-		return this;
-		
-	}
-	
-	public FormProposal nextProposal() {
-		nextprop.click();
+		Thread.sleep(2000);
 		return this;
 		
 	}
@@ -355,4 +374,50 @@ public class FormProposal extends AndroidActions {
 		return this;
 		
 	}
+	
+	/*
+	public FormProposal saveProposal() throws InterruptedException {
+		saveprop.click();
+		Thread.sleep(1000);
+		return this;
+		
+	}*/
+	
+	public FormProposal passContract() {
+		ncontrato.click();
+	//	ncontrato.click();
+		return this;
+		
+	}
+	
+	public FormProposal passPropuesta() {
+		npropuesta.click();
+	//	ncontrato.click();
+		return this;
+		
+	}
+	
+	/*
+	public FormContract nextProposal() {
+		nextprop.click();
+		return new FormContract(driver);
+		
+	}*/
+	
+	
+	public FormContract saveProposal() throws InterruptedException  {
+		nextprop.click();
+		Thread.sleep(1000);
+		return new FormContract(driver);
+		
+	}
+	
+	/*
+	public FormContract passContract() {
+		ncontrato.click();
+		ncontrato.click();
+		return new FormContract(driver);
+		
+	}*/
+	
 }

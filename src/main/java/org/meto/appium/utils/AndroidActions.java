@@ -4,6 +4,7 @@ import java.time.Duration;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+import org.meto.appium.pages.FormProposal;
 import org.meto.appium.pages.FormProspect;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
@@ -13,6 +14,7 @@ import org.openqa.selenium.remote.RemoteWebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import com.google.common.collect.ImmutableMap;
 
@@ -20,11 +22,13 @@ import io.appium.java_client.AppiumBy;
 import io.appium.java_client.MobileBy;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
 
 public class AndroidActions<W3cActions> {
 	AndroidDriver driver;
+//	String segmento = driver.findElement(By.id("pe.com.surgir.surgirapp:id/id_segment")).getText();
 	
 	public AndroidActions(AndroidDriver driver)
 	{
@@ -51,11 +55,56 @@ public class AndroidActions<W3cActions> {
 		}while(canScrollMore);
 	}
 	
+	/*
 	public void scrollToTextS(String text) {
 //		driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"AAAAA\"));"));
-		driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\""+text+"\"));"));	                                                                                           
+		driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\""+text+"\"));"));                                                                                     
 
 		
+	}*/
+	
+	public void scrollToTest() {
+		WebElement provdropdown = driver.findElement(By.xpath("//android.widget.EditText[@text='Departamento']"));
+		provdropdown.click();
+		// Calculate the coordinates to perform the scroll
+		int startY = provdropdown.getLocation().getY() + provdropdown.getSize().getHeight();
+		int endY = provdropdown.getLocation().getY() - provdropdown.getSize().getHeight();                                                     
+
+		// Perform the scroll
+		/*
+		TouchAction touchAction = new TouchAction(driver);
+		touchAction.press(PointOption.point(80, 798))
+		.waitAction(WaitOptions.waitOptions(Duration.ofSeconds(7)))
+		.moveTo(PointOption.point(80, 798))
+        .release()
+        .perform();*/
+		
+		TouchAction touchAction2 = new TouchAction(driver);
+		touchAction2.press(PointOption.point(80, startY))
+		.waitAction(WaitOptions.waitOptions(Duration.ofSeconds(5000)))
+		.moveTo(PointOption.point(80, endY))
+        .release()
+        .perform();
+		
+
+	}
+
+	
+	public void scrollToDepart() {
+
+		//driver.findElement(By.xpath("//android.widget.EditText[@text='Departamento']")).sendKeys("LIMA");
+		String context=driver.getContext();
+		System.out.println("context "+context);
+	
+		driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable (new UiSelector().scrollable(true).instancia(1)).scrollIntoView(new UiSelector().textContains(\"LIMA\").instance(0);"));
+					
+			
+			
+		//	driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().textContains(\"LIMA\").getText();"));
+			
+		//driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector().resourceId(\"pe.com.surgir.surgirapp:id/rol_layout\")).scrollIntoView(new UiSelector().textMatches(\"LIMA\").instance(0))")).click();
+	//	driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector().resourceId(\"pe.com.surgir.surgirapp:id/form_department\")).scrollIntoView(new UiSelector().textMatches(\"LIMA\").instance(0))"));
+
 	}
 	
 	public void scrollToPage(WebElement selectProspect, String text2) {
@@ -94,6 +143,22 @@ public class AndroidActions<W3cActions> {
 		
 	}
 	
+	public void scrollToPageContract() {
+		driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector().resourceId(\"pe.com.surgir.surgirapp:id/view_pager2\")).scrollIntoView(new UiSelector().textMatches(\"Firma de contrato\").instance(0))"));
+		
+	}
+	
+	public void scrollToPageSignature() {
+		driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector().resourceId(\"pe.com.surgir.surgirapp:id/primaryScroll\")).scrollIntoView(new UiSelector().textMatches(\"Uso de datos personales\").instance(0))"));
+	//	driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector().resourceId(\"pe.com.surgir.surgirapp:id/primaryScroll\")).scrollIntoView(new UiSelector().textMatches(\"Uso de datos personales\").instance(0))")).click();
+
+	}
+	
+	public void scrollToPageSignaturetwo() {
+		driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector().resourceId(\"pe.com.surgir.surgirapp:id/primaryScroll\")).scrollIntoView(new UiSelector().textMatches(\"Descartar\").instance(0))"));
+	//	driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector().resourceId(\"pe.com.surgir.surgirapp:id/primaryScroll\")).scrollIntoView(new UiSelector().textMatches(\"Uso de datos personales\").instance(0))")).click();
+
+	}
 	
 	
 	public void touchAgencia(String text) {
@@ -188,11 +253,20 @@ public class AndroidActions<W3cActions> {
 		
 	}
 	
+	public void fotoConstPatrimonio() {
+		List<WebElement> lists14p = driver.findElements(By.id("pe.com.surgir.surgirapp:id/mark_item_gallery"));
+		TouchAction touch14p = new TouchAction<>(driver);
+		touch14p.press(PointOption.point(625,762));
+		touch14p.release();
+		touch14p.perform();
+		
+	}
+	
 	public void casaHabita() {
 		List<WebElement> lists15 = driver.findElements(By.id("pe.com.surgir.surgirapp:id/list"));
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS); 
 		TouchAction touch15 = new TouchAction<>(driver);
-		touch15.press(PointOption.point(69,915));
+		touch15.press(PointOption.point(69,955)); //69,915
 		touch15.release();
 		touch15.perform();
 		
@@ -210,7 +284,7 @@ public class AndroidActions<W3cActions> {
 	public void departament() {
 		List<WebElement> lists17 = driver.findElements(By.id("pe.com.surgir.surgirapp:id/list"));
 		TouchAction touch17 = new TouchAction<>(driver);
-		touch17.press(PointOption.point(85,984));
+		touch17.press(PointOption.point(85,1069));
 		touch17.release();
 		touch17.perform();
 		
@@ -220,7 +294,7 @@ public class AndroidActions<W3cActions> {
 		List<WebElement> lists18 = driver.findElements(By.id("pe.com.surgir.surgirapp:id/list"));
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS); 
 		TouchAction touch18 = new TouchAction<>(driver);
-		touch18.press(PointOption.point(490	,903));
+		touch18.press(PointOption.point(494	,811));
 		touch18.release();
 		touch18.perform();
 		
@@ -260,6 +334,31 @@ public class AndroidActions<W3cActions> {
 		touch22.press(PointOption.point(82,586));
 		touch22.release();
 		touch22.perform();	
+		
+	}
+	
+	public void departament1() {
+		
+		/*
+		(new TouchAction(driver))
+		  .press(PointOption.point(80, 1057))
+		  .moveTo(PointOption.point(80, 798))
+		  .release()
+		  .perform();
+		
+		
+	    TouchAction touchAction = new TouchAction(driver);
+	    touchAction.longPress(PointOption.point(80, 1057))
+	               .moveTo(PointOption.point(80, 798))
+	               .release()
+	               .perform();
+	    */
+	    
+		long noOfSeconds = 5;
+		Duration duration = Duration.ofSeconds(noOfSeconds);
+		TouchAction action = new TouchAction(driver); 
+        action.press(PointOption.point(80, 1057)).waitAction(WaitOptions.waitOptions(Duration.ofSeconds(7)))
+                        .moveTo(PointOption.point(80, 798)).release().perform();
 		
 	}
 	
@@ -398,7 +497,7 @@ public class AndroidActions<W3cActions> {
 		List<WebElement> lists39 = driver.findElements(By.id("pe.com.surgir.surgirapp:id/list"));
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS); 
 		TouchAction touch39 = new TouchAction<>(driver);
-		touch39.press(PointOption.point(54,939));
+		touch39.press(PointOption.point(57,1198));
 		touch39.release();
 		touch39.perform(); 
 		
@@ -456,12 +555,26 @@ public class AndroidActions<W3cActions> {
 		
 	}*/
 	
-	public void scrollToText(String text) {
+	public void scrollToTextRelation() {
 	//	driver.findElement(By.xpath("//*[@text='Parentesco']")).click(); 
-		driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\""+text+"\"));"));
-		//driver.findElement(By.xpath("//*[@text='AMISTAD']"));
+		
+	//	driver.findElement(By.id("pe.com.surgir.surgirapp:id/dialog_relationship")).click();
+		
+	//  driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"AMISTAD\"));"));
+	//	driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(textMatches(\"AMISTAD\"));"));
 		
 		//driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector().resourceId(\"pe.com.surgir.surgirapp:id/dialog_relationship\")).scrollIntoView(new UiSelector().textMatches(\"AMISTAD\").instance(0))"));
+	//  driver.findElement(By.xpath("//*[@text='AMISTAD']"));
+	//	driver.findElement(By.xpath("//android.widget.EditText[@text='AMISTAD']")).click();
+		
+		//driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector().resourceId(\"pe.com.surgir.surgirapp:id/dialog_relationship\")).scrollIntoView(new UiSelector().textMatches(\"AMISTAD\").instance(0))"));
+		
+		List<WebElement> lists46 = driver.findElements(By.id("pe.com.surgir.surgirapp:id/list"));
+		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS); 
+		TouchAction touch46 = new TouchAction<>(driver);
+		touch46.press(PointOption.point(228,768)); // arriba 250, 557 --- abajo 264,896
+		touch46.release();
+		touch46.perform();
 		
 	}
 	
@@ -474,6 +587,45 @@ public class AndroidActions<W3cActions> {
 		
 	}
 	
+	//Contract
+	public void formadePago() {
+		List lists43 = driver.findElements(By.id("pe.com.surgir.surgirapp:id/list"));
+		TouchAction touch43 = new TouchAction<>(driver);
+		touch43.press(PointOption.point(99,853)); //102, 827
+		touch43.release();
+		touch43.perform(); 
+		
+	}
+	
+	public void entidadFinanciera() {
+		List lists44 = driver.findElements(By.id("pe.com.surgir.surgirapp:id/list"));
+		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS); 
+		TouchAction touch44 = new TouchAction<>(driver);
+		touch44.press(PointOption.point(46,567));  //46, 567
+		touch44.release();
+		touch44.perform(); 
+	
+	}
+	
+	public void fotoCuentas() {
+		List lists45 = driver.findElements(By.id("pe.com.surgir.surgirapp:id/mark_item_gallery")); 
+		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);	 
+		TouchAction touch45 = new TouchAction<>(driver);
+		touch45.press(PointOption.point(229,174));
+		touch45.release();
+		touch45.perform();
+		
+	}
+	
+	//Signature
+	public void signatureCustomer() {
+	    TouchAction touchAction = new TouchAction(driver);
+	    touchAction.longPress(PointOption.point(285, 731))
+	               .moveTo(PointOption.point(448, 722))
+	               .release()
+	               .perform();
+	}
+	
 	public void avance1() {
 		long noOfSeconds = 5;
 		Duration duration = Duration.ofSeconds(noOfSeconds);
@@ -481,9 +633,50 @@ public class AndroidActions<W3cActions> {
         action.press(PointOption.point(560, 789)).waitAction(WaitOptions.waitOptions(Duration.ofSeconds(7)))
                         .moveTo(PointOption.point(560, 260)).release().perform();
 		
-		
 	}
 	
+	public void avance2() {
+		long noOfSeconds = 5;
+		Duration duration = Duration.ofSeconds(noOfSeconds);
+		TouchAction action = new TouchAction(driver); 
+        action.press(PointOption.point(345, 860)).waitAction(WaitOptions.waitOptions(Duration.ofSeconds(7)))
+                        .moveTo(PointOption.point(345, 462)).release().perform();
+		
+	}
+		
+	public void politics() {
+		
+		FormProposal prospecta = new FormProposal(driver);
+		System.out.println(prospecta.segmentos());
+		
+		//String alerttitlenext2 = driver.findElement(By.id("android:id/content")).getText();
+	  //  System.out.println(segmento.substring(10, 1));
+	    /*
+		int valuenext = 2;
+		switch (valuenext) {
+		  case 1:
+			String alerttitle = driver.findElement(By.id("pe.com.surgir.surgirapp:id/tv_pending_policy_title")).getText();
+		    System.out.println(alerttitle);
+			if(alerttitle.equals("Validación de políticas")) {
+				Assert.assertEquals(alerttitle, "Validación de políticas");
+				driver.findElement(By.id("pe.com.surgir.surgirapp:id/btn_go_to_policy_module")).click();
+				driver.findElement(By.id("pe.com.surgir.surgirapp:id/icon_return_home")).click();
+				driver.findElement(By.id("pe.com.surgir.surgirapp:id/iv_module_menu")).click();
+				driver.findElement(By.xpath("//android.widget.TextView[@text='Módulo de garantías']")).click();
+				}
+		    break;
+		  case 2:
+		  	String alerttitlenext = driver.findElement(By.id("android:id/content")).getText();
+		    System.out.println(alerttitlenext);
+			if(alerttitlenext.equals("¿Enviar propuesta?")) {
+				Assert.assertEquals(alerttitlenext, "¿Enviar propuesta?");
+				driver.findElement(By.id("pe.com.surgir.surgirapp:id/btnCancel")).click();
+			//	driver.findElement(By.id("pe.com.surgir.surgirapp:id/btnConfirm")).click();
+				}
+		    break;
+
+		}*/
+	}
 	
 	public void swipeScreenTwoRsen() {
 		String text1 = driver.findElement(By.id("pe.com.surgir.surgirapp:id/rse_title_result_state")).getText();
@@ -503,10 +696,6 @@ public class AndroidActions<W3cActions> {
 		
 	}
 	
-
-	
-	
-	
 	public void timeExplicit() {
 		WebElement nverifica = (WebElement) driver.findElement(By.xpath("//android.widget.Button[@text='Verificar']"));
 		nverifica.click();
@@ -518,8 +707,6 @@ public class AndroidActions<W3cActions> {
 		wait.until(ExpectedConditions.elementToBeClickable(nverifica));
 	}
 
-	
-	
 	public void swipeAction(WebElement ele,String direction) {
 		((JavascriptExecutor) driver).executeScript("mobile: swipeGesture", ImmutableMap.of("elementId", ((RemoteWebElement)ele).getId(),
 				"direction", direction,
@@ -546,5 +733,5 @@ public class AndroidActions<W3cActions> {
 		
 	}
 	
-	
+
 }

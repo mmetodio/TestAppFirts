@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.meto.appium.tests.TFLogin">
+      <class name="org.meto.appium.tests.TFSignature">
         <methods>
-          <include name="FillForm"/>
           <include name="setup"/>
+          <include name="FillSignature"/>
           <include name="teardown"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- org.meto.appium.tests.TFLogin -->
+      </class> <!-- org.meto.appium.tests.TFSignature -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

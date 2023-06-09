@@ -21,7 +21,7 @@ public class ReportTestApp {
 		
 		extent = new ExtentReports();
 		extent.attachReporter(reporter);
-		extent.setSystemInfo("Tester","Meto");
+		extent.setSystemInfo("Tester Automation","Meto");
 		return extent;
 		
 		

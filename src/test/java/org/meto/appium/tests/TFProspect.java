@@ -4,8 +4,10 @@ import java.lang.reflect.Method;
 
 import org.meto.appium.base.TestBase;
 import org.meto.appium.pages.FormBusiness;
+import org.meto.appium.pages.FormContract;
 import org.meto.appium.pages.FormCustomer;
 import org.meto.appium.pages.FormPage;
+import org.meto.appium.pages.FormProposal;
 import org.meto.appium.pages.FormProspect;
 import org.meto.appium.pages.FormRse;
 import org.testng.annotations.BeforeMethod;
@@ -16,7 +18,9 @@ public class TFProspect extends TestBase {
 	FormProspect formProspect;
 	FormCustomer formCustomer;
 	FormBusiness formBusiness;
-//	FormRse formRse;
+	FormRse formRse;
+	FormProposal formProposal;
+	FormContract formContract;
 	
 	@BeforeMethod
 	public void beforeMethod(Method method) {
@@ -25,18 +29,20 @@ public class TFProspect extends TestBase {
 		formProspect = new FormProspect(driver);
 		formCustomer = new FormCustomer(driver);
 		formBusiness = new FormBusiness(driver);
-	//	formRse = new FormRse(driver);
+		formRse = new FormRse(driver);
+		formProposal = new FormProposal(driver);
+		formContract = new FormContract (driver);
 		
 	}
 	
 	@Test
-	public void FillProspect() throws InterruptedException{
+	public static void FillProspect() throws InterruptedException{
 		//FormProspect formProspect = formPage.localButtom();
 		FormProspect formProspect = new FormProspect(driver);
 		formProspect.PropuestaButton();
 		formProspect.ReturnButton();
 		formProspect.PropuestaHome();
-		formProspect.setNumDoc("48140310");
+		formProspect.setNumDoc("08163942");  //48208831 C  74883197 D  
 		formProspect.Verificando();
 		formProspect.setFecCaducidad("01/01/2030");
 		formProspect.setFirstName("TestFisrtname");
@@ -51,6 +57,9 @@ public class TFProspect extends TestBase {
 		formProspect.continuarProspect();
 		formProspect.scrollData();
 		formProspect.continuarData();
+		//formProspect.politics();
+		//formProspect.segmentos();
+
 		FormCustomer formCustomer = formProspect.bcontinuarValid();
 		
 	}

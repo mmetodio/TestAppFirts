@@ -9,6 +9,8 @@ import org.meto.appium.utils.AndroidActions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
+
+import io.appium.java_client.AppiumBy;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.nativekey.AndroidKey;
@@ -34,6 +36,7 @@ public class FormCustomer extends AndroidActions{
 		PageFactory.initElements(new AppiumElementLocatorFactory(driver, Duration.ofSeconds(5000), new DefaultElementByBuilder(MobilePlatform.ANDROID, AutomationName.ANDROID_UIAUTOMATOR2)), this);
 
 	}
+	
 	
 	//Boton continuar despues de las validaciones de buro, lista negra
 	//@AndroidFindBy(id="pe.com.surgir.surgirapp:id/summary_button_continue")
@@ -108,6 +111,7 @@ public class FormCustomer extends AndroidActions{
 	
 	//driver.findElement(By.xpath("//android.widget.EditText[@text='Departamento']")).click();
 	@AndroidFindBy(xpath="//android.widget.EditText[@text='Departamento']")
+	//@AndroidFindBy(id="pe.com.surgir.surgirapp:id/list")
 	private WebElement departamen;
 	
 	//driver.findElement(By.xpath("//android.widget.EditText[@text='Provincia']")).click();
@@ -149,6 +153,9 @@ public class FormCustomer extends AndroidActions{
 	//driver.findElement(By.xpath("//android.widget.EditText[@text='Número de dependientes']")).sendKeys("1");
 	@AndroidFindBy(xpath="//android.widget.EditText[@text='Número de dependientes']")
 	private WebElement numdepend;
+	
+	@AndroidFindBy(xpath="//android.widget.TextView[@text='Constancia de patrimonio']")
+	private WebElement fotoPatrimoni;
 	
 	//driver.findElement(By.xpath("//android.widget.EditText[@text='Tipo de referencia']")).click();
 	@AndroidFindBy(xpath="//android.widget.EditText[@text='Tipo de referencia']")
@@ -333,8 +340,11 @@ public class FormCustomer extends AndroidActions{
 	}
 	
 	public FormCustomer departamentos() {
-		departamen.click();
-		departament();
+		//departamen.click();
+	//	scrollToDepart();
+		scrollToTest();
+		//swipeScreen();
+	//	departament1();
 		return this;
 		
 	}
@@ -397,6 +407,15 @@ public class FormCustomer extends AndroidActions{
 	public FormCustomer numeroDependient(String dependencia) {
 	//	numdepend.clear();
 		numdepend.sendKeys(dependencia);
+		return this;
+		
+	}
+	
+	public FormCustomer fotoHeritage() {
+		fotoPatrimoni.click();
+		fotoPatrimoni.click();
+		fotoConstPatrimonio();
+		nListo.click();
 		return this;
 		
 	}

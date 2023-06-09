@@ -1,9 +1,14 @@
-org\meto\appium\pages\FormCustomer.class
 org\meto\appium\utils\AppiumUtils.class
-org\meto\appium\pages\FormProposal.class
+org\meto\appium\utils\AndroidActionsGuarantor.class
 org\meto\appium\pages\FormProspect.class
-org\meto\appium\base\TestBase.class
+org\meto\appium\pages\FormContract.class
 org\meto\appium\pages\FormBusiness.class
 org\meto\appium\pages\FormRse.class
 org\meto\appium\utils\AndroidActions.class
+org\meto\appium\pages\FormGuarantor.class
+org\meto\appium\pages\FormCustomer.class
+org\meto\appium\pages\FormProposal.class
+org\meto\appium\base\TestBase.class
+org\meto\appium\pages\FormSignature.class
+org\meto\appium\pages\FormCustomerGuarantor.class
 org\meto\appium\pages\FormPage.class
