@@ -189,38 +189,26 @@
                   <a name="FillCustomerGuarantor">
                   </a> <!-- FillCustomerGuarantor -->
                   <span class="method-name">FillCustomerGuarantor</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: &apos;PERU-METO&apos;, ip: &apos;192.168.1.37&apos;
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: &apos;Command &apos;C:\\Users\\meto\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s 5200fa184e619579 install C:\\code\\AppiumFrameworkSurgir3//src//test//resources//app//Surgir_debug_5.0.0_Release5.0.0.apk&apos; timed out after 90000ms&apos;. Try to increase the 90000ms adb execution timeout represented by &apos;androidInstallTimeout&apos; capability 
+Host info: host: &apos;PERU-METO&apos;, ip: &apos;10.6.116.101&apos;
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.17&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:udid=5200fa184e619579, appium:ignoreHiddenApiPolicyError=true, appium:chromedriverExecutable=C:\code\AppiumFrameworkSurgir3//src//test//resources//driver//chromedriver, appium:appWaitActivity=.ui.login.LoginActivity,.ui.splash.SplashActivity, appium:deviceName=samsung SM-T395, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C:\code\AppiumFrameworkSurgir3//src//test//resources//app//Surgir_debug_5.0.0_Release5.0.0.apk}], desiredCapabilities=Capabilities {appium:app: C:\code\AppiumFrameworkSurg..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\code\AppiumFrameworkSurg..., appium:deviceName: samsung SM-T395, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}}]
+Capabilities {appium:app: C:\code\AppiumFrameworkSurg..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\code\AppiumFrameworkSurg..., appium:deviceName: samsung SM-T395, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
 	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:154)
 	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)
 	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
 	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:117)
-	at org.meto.appium.base.TestBase.setup(TestBase.java:70)
-Caused by: org.openqa.selenium.WebDriverException: Connection refused: no further information
-Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.17&apos;
-Driver info: driver.version: AndroidDriver
-	at io.appium.java_client.remote.AppiumCommandExecutor.lambda$execute$4(AppiumCommandExecutor.java:274)
-	at java.base/java.util.Optional.orElseGet(Optional.java:369)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:273)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	... 29 more
-Caused by: java.net.ConnectException: Connection refused: no further information
-	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
-	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
-	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
-	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-... Removed 23 stack frames
+	at org.meto.appium.base.TestBase.setup(TestBase.java:72)
+... Removed 27 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -548,122 +536,122 @@ return data;
               <div class="configuration-suite before">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">setup(org.testng.TestRunner@a92be4f)</span>
+                <span class="method-name">setup(org.testng.TestRunner@254f906e)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.meto.appium.tests.TFLogin</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">2993 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">FillForm</span>
-                <span class="method-start">2993 ms</span>
+                <span class="method-start">175735 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">175735 ms</span>
+              </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.meto.appium.tests.TFProspect</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">FillProspect</span>
-                <span class="method-start">3261 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">3261 ms</span>
+                <span class="method-start">176094 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FillProspect</span>
+                <span class="method-start">176094 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.meto.appium.tests.TFCustomer</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">3277 ms</span>
+                <span class="method-start">176109 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">FillCustomer</span>
-                <span class="method-start">3277 ms</span>
+                <span class="method-start">176109 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.meto.appium.tests.TFBusiness</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">3309 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">FillBusiness</span>
-                <span class="method-start">3309 ms</span>
+                <span class="method-start">176141 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">176141 ms</span>
+              </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.meto.appium.tests.TFRse</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">FillRse</span>
-                <span class="method-start">3340 ms</span>
+                <span class="method-start">176157 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">3340 ms</span>
+                <span class="method-start">176157 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.meto.appium.tests.TFProposal</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">FillProposal</span>
-                <span class="method-start">3372 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">3372 ms</span>
+                <span class="method-start">176189 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FillProposal</span>
+                <span class="method-start">176189 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.meto.appium.tests.TFContract</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">3388 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">FillContract</span>
-                <span class="method-start">3388 ms</span>
+                <span class="method-start">176221 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">176221 ms</span>
+              </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.meto.appium.tests.TFSignature</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">FillSignature</span>
-                <span class="method-start">3420 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">3420 ms</span>
+                <span class="method-start">176237 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FillSignature</span>
+                <span class="method-start">176237 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.meto.appium.tests.TFGuarantor</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">FillGuarantor</span>
-                <span class="method-start">3451 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">3451 ms</span>
+                <span class="method-start">176268 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FillGuarantor</span>
+                <span class="method-start">176268 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.meto.appium.tests.TFCustomerGuarantor</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">3483 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">FillCustomerGuarantor</span>
-                <span class="method-start">3483 ms</span>
+                <span class="method-start">176300 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">176300 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="configuration-suite after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">3515 ms</span>
+                <span class="method-start">176363 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

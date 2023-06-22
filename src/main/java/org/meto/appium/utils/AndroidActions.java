@@ -62,29 +62,39 @@ public class AndroidActions<W3cActions> {
 
 		
 	}*/
-	
+	//NO FUNCIONO PARA DROPDOWN DE DEPARTAMETO
 	public void scrollToTest() {
-		WebElement provdropdown = driver.findElement(By.xpath("//android.widget.EditText[@text='Departamento']"));
+		//pe.com.surgir.surgirapp:id/rol_layout
+		//pe.com.surgir.surgirapp:id/form_department
+		
+		//WebElement provdropdown = driver.findElement(By.xpath("//android.widget.EditText[@text='Departamento']"));
+		WebElement provdropdown = driver.findElement(By.id("pe.com.surgir.surgirapp:id/form_department"));
 		provdropdown.click();
 		// Calculate the coordinates to perform the scroll
 		int startY = provdropdown.getLocation().getY() + provdropdown.getSize().getHeight();
 		int endY = provdropdown.getLocation().getY() - provdropdown.getSize().getHeight();                                                     
 
-		// Perform the scroll
-		/*
-		TouchAction touchAction = new TouchAction(driver);
-		touchAction.press(PointOption.point(80, 798))
-		.waitAction(WaitOptions.waitOptions(Duration.ofSeconds(7)))
-		.moveTo(PointOption.point(80, 798))
-        .release()
-        .perform();*/
-		
+		// Perform the scroll	
 		TouchAction touchAction2 = new TouchAction(driver);
-		touchAction2.press(PointOption.point(80, startY))
-		.waitAction(WaitOptions.waitOptions(Duration.ofSeconds(5000)))
-		.moveTo(PointOption.point(80, endY))
+		touchAction2.press(PointOption.point(0, endY))
+		.waitAction(WaitOptions.waitOptions(Duration.ofSeconds(20000)))
+		.moveTo(PointOption.point(0, startY))
         .release()
         .perform();
+		
+
+	}
+	
+	public void scrollToTestTwo() {
+		//pe.com.surgir.surgirapp:id/rol_layout
+		//pe.com.surgir.surgirapp:id/form_department
+		
+		//WebElement provdropdown = driver.findElement(By.xpath("//android.widget.EditText[@text='Departamento']"));
+		WebElement provdropdown = driver.findElement(By.id("pe.com.surgir.surgirapp:id/form_department"));
+		provdropdown.click();
+		driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector().description(\"LIMA\")).scrollForward()"));
+	//	driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector().description(\"LIMA\")).scrollBackward()"));
+
 		
 
 	}
@@ -93,8 +103,7 @@ public class AndroidActions<W3cActions> {
 	public void scrollToDepart() {
 
 		//driver.findElement(By.xpath("//android.widget.EditText[@text='Departamento']")).sendKeys("LIMA");
-		String context=driver.getContext();
-		System.out.println("context "+context);
+
 	
 		driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable (new UiSelector().scrollable(true).instancia(1)).scrollIntoView(new UiSelector().textContains(\"LIMA\").instance(0);"));
 					
@@ -304,7 +313,7 @@ public class AndroidActions<W3cActions> {
 		List<WebElement> lists19 = driver.findElements(By.id("pe.com.surgir.surgirapp:id/list"));
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS); 
 		TouchAction touch19 = new TouchAction<>(driver);
-		touch19.press(PointOption.point(80,1067));
+		touch19.press(PointOption.point(67,920));
 		touch19.release();
 		touch19.perform();
 		
@@ -337,28 +346,29 @@ public class AndroidActions<W3cActions> {
 		
 	}
 	
+	// esta funcionando ok desplazamiento de departamento
 	public void departament1() {
-		
-		/*
-		(new TouchAction(driver))
-		  .press(PointOption.point(80, 1057))
-		  .moveTo(PointOption.point(80, 798))
-		  .release()
-		  .perform();
-		
-		
-	    TouchAction touchAction = new TouchAction(driver);
-	    touchAction.longPress(PointOption.point(80, 1057))
-	               .moveTo(PointOption.point(80, 798))
-	               .release()
-	               .perform();
-	    */
-	    
-		long noOfSeconds = 5;
-		Duration duration = Duration.ofSeconds(noOfSeconds);
+		List<WebElement> lists17 = driver.findElements(By.id("pe.com.surgir.surgirapp:id/list"));
 		TouchAction action = new TouchAction(driver); 
         action.press(PointOption.point(80, 1057)).waitAction(WaitOptions.waitOptions(Duration.ofSeconds(7)))
-                        .moveTo(PointOption.point(80, 798)).release().perform();
+                        .moveTo(PointOption.point(80, 798));
+        action.release();
+        action.perform();
+		
+	}
+	
+	public void departament2() {
+		List<WebElement> lists17 = driver.findElements(By.id("pe.com.surgir.surgirapp:id/list"));
+		TouchAction action = new TouchAction(driver); 
+        action.press(PointOption.point(70, 1097)).waitAction(WaitOptions.waitOptions(Duration.ofSeconds(7)))
+                        .moveTo(PointOption.point(70, 800));
+        action.release();
+        action.perform();
+        
+		TouchAction touch17 = new TouchAction<>(driver);
+		touch17.press(PointOption.point(70,1103));
+		touch17.release();
+		touch17.perform();
 		
 	}
 	
@@ -591,7 +601,7 @@ public class AndroidActions<W3cActions> {
 	public void formadePago() {
 		List lists43 = driver.findElements(By.id("pe.com.surgir.surgirapp:id/list"));
 		TouchAction touch43 = new TouchAction<>(driver);
-		touch43.press(PointOption.point(99,853)); //102, 827
+		touch43.press(PointOption.point(90,811)); //102, 827
 		touch43.release();
 		touch43.perform(); 
 		

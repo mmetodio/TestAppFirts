@@ -52,17 +52,18 @@ public class TestBase extends AppiumUtils{
 		options.setUdid("5200fa184e619579"); //metodio
 	//	options.setUdid("520074ed4689172f"); //celeste
 	//	options.setDeviceName("samsung SM-T575"); //5200fa184e619579   samsung SM-T395
-	//	options.setUdid("RX2RB00S5WJ");
+	//	options.setUdid("RX2RB00S5WJ"); //meto  
+	//	options.setUdid("R52RA00QSKK"); //ariana
 		options.setApp("com.android.contacts");
 		options.setCapability("ignoreHiddenApiPolicyError", true);
-		options.setCapability("enableMultiWindows", true);   // nuevo
+	//	options.setCapability("enableMultiWindows", true);   // nuevo
 //		options.setChromedriverExecutable("C://Users//Praxis//OneDrive//Documents//automatizedTests//src//drivers//chromedriver");
 		//options.setChromedriverExecutable("C://Users//Praxis//Documents//chromedriver");
 		options.setChromedriverExecutable(System.getProperty("user.dir")+"//src//test//resources//driver//chromedriver");
 
 	//	options.setApp("C://code//AppiumFrameworkSurgir//src//test//resources//app//Surgir_debug_4.3.0_Release4.3.0.apk");
 	//	options.setApp("C://code//AppiumFrameworkSurgir3//src//test//resources//app//Surgir_debug4.5.0_test.apk");
-		options.setApp(System.getProperty("user.dir")+"//src//test//resources//app//Surgir_debug_4.9.0_Release4.9.0.apk"); //hasta las 11
+		options.setApp(System.getProperty("user.dir")+"//src//test//resources//app//Surgir_debug_5.0.0_Release5.0.0.apk"); //hasta las 11
 		
 		options.setAppWaitActivity("com.saucelabs.mydemoapp.rn.MainActivity"); //nuevo
 		

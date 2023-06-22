@@ -2,142 +2,161 @@
 <testng-results ignored="0" total="10" passed="0" failed="0" skipped="10">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-05T16:58:21 COT" name="Data Driven Basics" finished-at="2023-06-05T16:58:21 COT" duration-ms="521">
+  <suite started-at="2023-06-22T16:24:19 COT" name="Data Driven Basics" finished-at="2023-06-22T16:24:20 COT" duration-ms="596">
     <groups>
     </groups>
-    <test started-at="2023-06-05T16:58:21 COT" name="App Manager Login Test" finished-at="2023-06-05T16:58:21 COT" duration-ms="31">
+    <test started-at="2023-06-22T16:24:19 COT" name="App Manager Login Test" finished-at="2023-06-22T16:24:19 COT" duration-ms="48">
       <class name="org.meto.appium.tests.TFLogin">
-        <test-method signature="FillForm()[pri:0, instance:org.meto.appium.tests.TFLogin@2a62b5bc]" started-at="2023-06-05T16:58:21 COT" name="FillForm" finished-at="2023-06-05T16:58:21 COT" duration-ms="0" status="SKIP">
+        <test-method signature="FillForm()[pri:0, instance:org.meto.appium.tests.TFLogin@2a62b5bc]" started-at="2023-06-22T16:24:19 COT" name="FillForm" finished-at="2023-06-22T16:24:19 COT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillForm -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFLogin@2a62b5bc]" started-at="2023-06-05T16:58:21 COT" name="beforeMethod" finished-at="2023-06-05T16:58:21 COT" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFLogin@2a62b5bc]" started-at="2023-06-22T16:24:19 COT" name="beforeMethod" finished-at="2023-06-22T16:24:19 COT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
       </class> <!-- org.meto.appium.tests.TFLogin -->
     </test> <!-- App Manager Login Test -->
-    <test started-at="2023-06-05T16:58:21 COT" name="Prospect Test" finished-at="2023-06-05T16:58:21 COT" duration-ms="0">
+    <test started-at="2023-06-22T16:24:20 COT" name="Prospect Test" finished-at="2023-06-22T16:24:20 COT" duration-ms="16">
       <class name="org.meto.appium.tests.TFProspect">
-        <test-method signature="FillProspect()[pri:0, instance:org.meto.appium.tests.TFProspect@4f25b795]" started-at="2023-06-05T16:58:21 COT" name="FillProspect" finished-at="2023-06-05T16:58:21 COT" duration-ms="0" status="SKIP">
+        <test-method signature="FillProspect()[pri:0, instance:org.meto.appium.tests.TFProspect@4f25b795]" started-at="2023-06-22T16:24:20 COT" name="FillProspect" finished-at="2023-06-22T16:24:20 COT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillProspect -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFProspect@4f25b795]" started-at="2023-06-05T16:58:21 COT" name="beforeMethod" finished-at="2023-06-05T16:58:21 COT" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFProspect@4f25b795]" started-at="2023-06-22T16:24:20 COT" name="beforeMethod" finished-at="2023-06-22T16:24:20 COT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
       </class> <!-- org.meto.appium.tests.TFProspect -->
     </test> <!-- Prospect Test -->
-    <test started-at="2023-06-05T16:58:21 COT" name="Customer Test" finished-at="2023-06-05T16:58:21 COT" duration-ms="0">
+    <test started-at="2023-06-22T16:24:20 COT" name="Customer Test" finished-at="2023-06-22T16:24:20 COT" duration-ms="16">
       <class name="org.meto.appium.tests.TFCustomer">
-        <test-method signature="FillCustomer()[pri:0, instance:org.meto.appium.tests.TFCustomer@525575]" started-at="2023-06-05T16:58:21 COT" name="FillCustomer" finished-at="2023-06-05T16:58:21 COT" duration-ms="0" status="SKIP">
+        <test-method signature="FillCustomer()[pri:0, instance:org.meto.appium.tests.TFCustomer@525575]" started-at="2023-06-22T16:24:20 COT" name="FillCustomer" finished-at="2023-06-22T16:24:20 COT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillCustomer -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFCustomer@525575]" started-at="2023-06-05T16:58:21 COT" name="beforeMethod" finished-at="2023-06-05T16:58:21 COT" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFCustomer@525575]" started-at="2023-06-22T16:24:20 COT" name="beforeMethod" finished-at="2023-06-22T16:24:20 COT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
       </class> <!-- org.meto.appium.tests.TFCustomer -->
     </test> <!-- Customer Test -->
-    <test started-at="2023-06-05T16:58:21 COT" name="Business Test" finished-at="2023-06-05T16:58:21 COT" duration-ms="0">
+    <test started-at="2023-06-22T16:24:20 COT" name="Business Test" finished-at="2023-06-22T16:24:20 COT" duration-ms="0">
       <class name="org.meto.appium.tests.TFBusiness">
-        <test-method signature="FillBusiness()[pri:0, instance:org.meto.appium.tests.TFBusiness@db57326]" started-at="2023-06-05T16:58:21 COT" name="FillBusiness" finished-at="2023-06-05T16:58:21 COT" duration-ms="0" status="SKIP">
+        <test-method signature="FillBusiness()[pri:0, instance:org.meto.appium.tests.TFBusiness@db57326]" started-at="2023-06-22T16:24:20 COT" name="FillBusiness" finished-at="2023-06-22T16:24:20 COT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillBusiness -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFBusiness@db57326]" started-at="2023-06-05T16:58:21 COT" name="beforeMethod" finished-at="2023-06-05T16:58:21 COT" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFBusiness@db57326]" started-at="2023-06-22T16:24:20 COT" name="beforeMethod" finished-at="2023-06-22T16:24:20 COT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
       </class> <!-- org.meto.appium.tests.TFBusiness -->
     </test> <!-- Business Test -->
-    <test started-at="2023-06-05T16:58:21 COT" name="Rse Test" finished-at="2023-06-05T16:58:21 COT" duration-ms="0">
+    <test started-at="2023-06-22T16:24:20 COT" name="Rse Test" finished-at="2023-06-22T16:24:20 COT" duration-ms="0">
       <class name="org.meto.appium.tests.TFRse">
-        <test-method signature="FillRse()[pri:0, instance:org.meto.appium.tests.TFRse@18a136ac]" started-at="2023-06-05T16:58:21 COT" name="FillRse" finished-at="2023-06-05T16:58:21 COT" duration-ms="0" status="SKIP">
+        <test-method signature="FillRse()[pri:0, instance:org.meto.appium.tests.TFRse@18a136ac]" started-at="2023-06-22T16:24:20 COT" name="FillRse" finished-at="2023-06-22T16:24:20 COT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillRse -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFRse@18a136ac]" started-at="2023-06-05T16:58:21 COT" name="beforeMethod" finished-at="2023-06-05T16:58:21 COT" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFRse@18a136ac]" started-at="2023-06-22T16:24:20 COT" name="beforeMethod" finished-at="2023-06-22T16:24:20 COT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
       </class> <!-- org.meto.appium.tests.TFRse -->
     </test> <!-- Rse Test -->
-    <test started-at="2023-06-05T16:58:21 COT" name="Proposal Test" finished-at="2023-06-05T16:58:21 COT" duration-ms="0">
+    <test started-at="2023-06-22T16:24:20 COT" name="Proposal Test" finished-at="2023-06-22T16:24:20 COT" duration-ms="0">
       <class name="org.meto.appium.tests.TFProposal">
-        <test-method signature="FillProposal()[pri:0, instance:org.meto.appium.tests.TFProposal@5d12a356]" started-at="2023-06-05T16:58:21 COT" name="FillProposal" finished-at="2023-06-05T16:58:21 COT" duration-ms="0" status="SKIP">
+        <test-method signature="FillProposal()[pri:0, instance:org.meto.appium.tests.TFProposal@5d12a356]" started-at="2023-06-22T16:24:20 COT" name="FillProposal" finished-at="2023-06-22T16:24:20 COT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillProposal -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFProposal@5d12a356]" started-at="2023-06-05T16:58:21 COT" name="beforeMethod" finished-at="2023-06-05T16:58:21 COT" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFProposal@5d12a356]" started-at="2023-06-22T16:24:20 COT" name="beforeMethod" finished-at="2023-06-22T16:24:20 COT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
       </class> <!-- org.meto.appium.tests.TFProposal -->
     </test> <!-- Proposal Test -->
-    <test started-at="2023-06-05T16:58:21 COT" name="Contract Test" finished-at="2023-06-05T16:58:21 COT" duration-ms="0">
+    <test started-at="2023-06-22T16:24:20 COT" name="Contract Test" finished-at="2023-06-22T16:24:20 COT" duration-ms="0">
       <class name="org.meto.appium.tests.TFContract">
-        <test-method signature="FillContract()[pri:0, instance:org.meto.appium.tests.TFContract@4fad9bb2]" started-at="2023-06-05T16:58:21 COT" name="FillContract" finished-at="2023-06-05T16:58:21 COT" duration-ms="0" status="SKIP">
+        <test-method signature="FillContract()[pri:0, instance:org.meto.appium.tests.TFContract@4fad9bb2]" started-at="2023-06-22T16:24:20 COT" name="FillContract" finished-at="2023-06-22T16:24:20 COT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillContract -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFContract@4fad9bb2]" started-at="2023-06-05T16:58:21 COT" name="beforeMethod" finished-at="2023-06-05T16:58:21 COT" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFContract@4fad9bb2]" started-at="2023-06-22T16:24:20 COT" name="beforeMethod" finished-at="2023-06-22T16:24:20 COT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
       </class> <!-- org.meto.appium.tests.TFContract -->
     </test> <!-- Contract Test -->
-    <test started-at="2023-06-05T16:58:21 COT" name="Signature Test" finished-at="2023-06-05T16:58:21 COT" duration-ms="0">
+    <test started-at="2023-06-22T16:24:20 COT" name="Signature Test" finished-at="2023-06-22T16:24:20 COT" duration-ms="0">
       <class name="org.meto.appium.tests.TFSignature">
-        <test-method signature="FillSignature()[pri:0, instance:org.meto.appium.tests.TFSignature@2250b9f2]" started-at="2023-06-05T16:58:21 COT" name="FillSignature" finished-at="2023-06-05T16:58:21 COT" duration-ms="0" status="SKIP">
+        <test-method signature="FillSignature()[pri:0, instance:org.meto.appium.tests.TFSignature@2250b9f2]" started-at="2023-06-22T16:24:20 COT" name="FillSignature" finished-at="2023-06-22T16:24:20 COT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillSignature -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFSignature@2250b9f2]" started-at="2023-06-05T16:58:21 COT" name="beforeMethod" finished-at="2023-06-05T16:58:21 COT" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFSignature@2250b9f2]" started-at="2023-06-22T16:24:20 COT" name="beforeMethod" finished-at="2023-06-22T16:24:20 COT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
       </class> <!-- org.meto.appium.tests.TFSignature -->
     </test> <!-- Signature Test -->
-    <test started-at="2023-06-05T16:58:21 COT" name="Guarantor Test" finished-at="2023-06-05T16:58:21 COT" duration-ms="0">
+    <test started-at="2023-06-22T16:24:20 COT" name="Guarantor Test" finished-at="2023-06-22T16:24:20 COT" duration-ms="0">
       <class name="org.meto.appium.tests.TFGuarantor">
-        <test-method signature="FillGuarantor()[pri:0, instance:org.meto.appium.tests.TFGuarantor@8dbfffb]" started-at="2023-06-05T16:58:21 COT" name="FillGuarantor" finished-at="2023-06-05T16:58:21 COT" duration-ms="0" status="SKIP">
+        <test-method signature="FillGuarantor()[pri:0, instance:org.meto.appium.tests.TFGuarantor@8dbfffb]" started-at="2023-06-22T16:24:20 COT" name="FillGuarantor" finished-at="2023-06-22T16:24:20 COT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillGuarantor -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFGuarantor@8dbfffb]" started-at="2023-06-05T16:58:21 COT" name="beforeMethod" finished-at="2023-06-05T16:58:21 COT" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFGuarantor@8dbfffb]" started-at="2023-06-22T16:24:20 COT" name="beforeMethod" finished-at="2023-06-22T16:24:20 COT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
       </class> <!-- org.meto.appium.tests.TFGuarantor -->
     </test> <!-- Guarantor Test -->
-    <test started-at="2023-06-05T16:58:21 COT" name="Customer Guarantor Test" finished-at="2023-06-05T16:58:21 COT" duration-ms="0">
+    <test started-at="2023-06-22T16:24:20 COT" name="Customer Guarantor Test" finished-at="2023-06-22T16:24:20 COT" duration-ms="0">
       <class name="org.meto.appium.tests.TFCustomerGuarantor">
-        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:org.meto.appium.tests.TFCustomerGuarantor@2e2ff723]" started-at="2023-06-05T16:58:18 COT" name="setup" finished-at="2023-06-05T16:58:21 COT" duration-ms="2962" status="FAIL">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:org.meto.appium.tests.TFCustomerGuarantor@2e2ff723]" started-at="2023-06-22T16:21:23 COT" name="setup" finished-at="2023-06-22T16:24:19 COT" duration-ms="175704" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@a92be4f]]>
+                <![CDATA[org.testng.TestRunner@254f906e]]>
               </value>
             </param>
           </params>
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'PERU-METO', ip: '192.168.1.37']]>
+              <![CDATA[Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\meto\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s 5200fa184e619579 install C:\\code\\AppiumFrameworkSurgir3//src//test//resources//app//Surgir_debug_5.0.0_Release5.0.0.apk' timed out after 90000ms'. Try to increase the 90000ms adb execution timeout represented by 'androidInstallTimeout' capability 
+Host info: host: 'PERU-METO', ip: '10.6.116.101'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:udid=5200fa184e619579, appium:ignoreHiddenApiPolicyError=true, appium:chromedriverExecutable=C:\code\AppiumFrameworkSurgir3//src//test//resources//driver//chromedriver, appium:appWaitActivity=.ui.login.LoginActivity,.ui.splash.SplashActivity, appium:deviceName=samsung SM-T395, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C:\code\AppiumFrameworkSurgir3//src//test//resources//app//Surgir_debug_5.0.0_Release5.0.0.apk}], desiredCapabilities=Capabilities {appium:app: C:\code\AppiumFrameworkSurg..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\code\AppiumFrameworkSurg..., appium:deviceName: samsung SM-T395, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}}]
+Capabilities {appium:app: C:\code\AppiumFrameworkSurg..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\code\AppiumFrameworkSurg..., appium:deviceName: samsung SM-T395, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'PERU-METO', ip: '192.168.1.37'
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\meto\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s 5200fa184e619579 install C:\\code\\AppiumFrameworkSurgir3//src//test//resources//app//Surgir_debug_5.0.0_Release5.0.0.apk' timed out after 90000ms'. Try to increase the 90000ms adb execution timeout represented by 'androidInstallTimeout' capability 
+Host info: host: 'PERU-METO', ip: '10.6.116.101'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:udid=5200fa184e619579, appium:ignoreHiddenApiPolicyError=true, appium:chromedriverExecutable=C:\code\AppiumFrameworkSurgir3//src//test//resources//driver//chromedriver, appium:appWaitActivity=.ui.login.LoginActivity,.ui.splash.SplashActivity, appium:deviceName=samsung SM-T395, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C:\code\AppiumFrameworkSurgir3//src//test//resources//app//Surgir_debug_5.0.0_Release5.0.0.apk}], desiredCapabilities=Capabilities {appium:app: C:\code\AppiumFrameworkSurg..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\code\AppiumFrameworkSurg..., appium:deviceName: samsung SM-T395, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}}]
+Capabilities {appium:app: C:\code\AppiumFrameworkSurg..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\code\AppiumFrameworkSurg..., appium:deviceName: samsung SM-T395, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
 at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:154)
 at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
 at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
 at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
-at org.meto.appium.base.TestBase.setup(TestBase.java:70)
+at org.meto.appium.base.TestBase.setup(TestBase.java:72)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -161,50 +180,47 @@ at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter
 at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: org.openqa.selenium.WebDriverException: Connection refused: no further information
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
-Driver info: driver.version: AndroidDriver
-at io.appium.java_client.remote.AppiumCommandExecutor.lambda$execute$4(AppiumCommandExecutor.java:274)
-at java.base/java.util.Optional.orElseGet(Optional.java:369)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:273)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-... 29 more
-Caused by: java.net.ConnectException: Connection refused: no further information
-at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
-at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
-at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
-at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
-at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
-at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-at java.base/java.lang.Thread.run(Thread.java:834)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="FillCustomerGuarantor()[pri:0, instance:org.meto.appium.tests.TFCustomerGuarantor@2e2ff723]" started-at="2023-06-05T16:58:21 COT" name="FillCustomerGuarantor" finished-at="2023-06-05T16:58:21 COT" duration-ms="0" status="SKIP">
+        <test-method signature="FillCustomerGuarantor()[pri:0, instance:org.meto.appium.tests.TFCustomerGuarantor@2e2ff723]" started-at="2023-06-22T16:24:20 COT" name="FillCustomerGuarantor" finished-at="2023-06-22T16:24:20 COT" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'PERU-METO', ip: '192.168.1.37']]>
+              <![CDATA[Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\meto\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s 5200fa184e619579 install C:\\code\\AppiumFrameworkSurgir3//src//test//resources//app//Surgir_debug_5.0.0_Release5.0.0.apk' timed out after 90000ms'. Try to increase the 90000ms adb execution timeout represented by 'androidInstallTimeout' capability 
+Host info: host: 'PERU-METO', ip: '10.6.116.101'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:udid=5200fa184e619579, appium:ignoreHiddenApiPolicyError=true, appium:chromedriverExecutable=C:\code\AppiumFrameworkSurgir3//src//test//resources//driver//chromedriver, appium:appWaitActivity=.ui.login.LoginActivity,.ui.splash.SplashActivity, appium:deviceName=samsung SM-T395, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C:\code\AppiumFrameworkSurgir3//src//test//resources//app//Surgir_debug_5.0.0_Release5.0.0.apk}], desiredCapabilities=Capabilities {appium:app: C:\code\AppiumFrameworkSurg..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\code\AppiumFrameworkSurg..., appium:deviceName: samsung SM-T395, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}}]
+Capabilities {appium:app: C:\code\AppiumFrameworkSurg..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\code\AppiumFrameworkSurg..., appium:deviceName: samsung SM-T395, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'PERU-METO', ip: '192.168.1.37'
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\meto\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s 5200fa184e619579 install C:\\code\\AppiumFrameworkSurgir3//src//test//resources//app//Surgir_debug_5.0.0_Release5.0.0.apk' timed out after 90000ms'. Try to increase the 90000ms adb execution timeout represented by 'androidInstallTimeout' capability 
+Host info: host: 'PERU-METO', ip: '10.6.116.101'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:udid=5200fa184e619579, appium:ignoreHiddenApiPolicyError=true, appium:chromedriverExecutable=C:\code\AppiumFrameworkSurgir3//src//test//resources//driver//chromedriver, appium:appWaitActivity=.ui.login.LoginActivity,.ui.splash.SplashActivity, appium:deviceName=samsung SM-T395, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C:\code\AppiumFrameworkSurgir3//src//test//resources//app//Surgir_debug_5.0.0_Release5.0.0.apk}], desiredCapabilities=Capabilities {appium:app: C:\code\AppiumFrameworkSurg..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\code\AppiumFrameworkSurg..., appium:deviceName: samsung SM-T395, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}}]
+Capabilities {appium:app: C:\code\AppiumFrameworkSurg..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\code\AppiumFrameworkSurg..., appium:deviceName: samsung SM-T395, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
 at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:154)
 at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
 at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
 at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
-at org.meto.appium.base.TestBase.setup(TestBase.java:70)
+at org.meto.appium.base.TestBase.setup(TestBase.java:72)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -228,39 +244,17 @@ at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter
 at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: org.openqa.selenium.WebDriverException: Connection refused: no further information
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
-Driver info: driver.version: AndroidDriver
-at io.appium.java_client.remote.AppiumCommandExecutor.lambda$execute$4(AppiumCommandExecutor.java:274)
-at java.base/java.util.Optional.orElseGet(Optional.java:369)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:273)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-... 29 more
-Caused by: java.net.ConnectException: Connection refused: no further information
-at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
-at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
-at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
-at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
-at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
-at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-at java.base/java.lang.Thread.run(Thread.java:834)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillCustomerGuarantor -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFCustomerGuarantor@2e2ff723]" started-at="2023-06-05T16:58:21 COT" name="beforeMethod" finished-at="2023-06-05T16:58:21 COT" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFCustomerGuarantor@2e2ff723]" started-at="2023-06-22T16:24:20 COT" name="beforeMethod" finished-at="2023-06-22T16:24:20 COT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:org.meto.appium.tests.TFCustomerGuarantor@2e2ff723]" started-at="2023-06-05T16:58:21 COT" name="teardown" finished-at="2023-06-05T16:58:21 COT" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:org.meto.appium.tests.TFCustomerGuarantor@2e2ff723]" started-at="2023-06-22T16:24:20 COT" name="teardown" finished-at="2023-06-22T16:24:20 COT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

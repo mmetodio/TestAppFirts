@@ -44,6 +44,7 @@ public class TFProposal extends TestBase {
 	//	formProposal.saveProposal();
 		formProposal.destinoPrest();
 		formProposal.fotoPresupuesto();
+		formProposal.savePropos();
 		formProposal.frecuenciaCuota();
 		formProposal.cantidadCuota();
 		formProposal.calculaTasa();
@@ -53,7 +54,7 @@ public class TFProposal extends TestBase {
 		formProposal.btnCerrarRse();
 		//formProposal.calculaTasa();
 		formProposal.nextOneProposal();
-		formProposal.fecVencimiento("23/05/2023");
+		formProposal.fecVencimiento("23/07/2023");
 	//	formProposal.swipeScreenOneProposal();
 		formProposal.seguroBasico();
 		formProposal.addOptative();

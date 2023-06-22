@@ -375,13 +375,13 @@ public class FormProposal extends AndroidActions {
 		
 	}
 	
-	/*
-	public FormProposal saveProposal() throws InterruptedException {
+	
+	public FormProposal savePropos() throws InterruptedException {
 		saveprop.click();
 		Thread.sleep(1000);
 		return this;
 		
-	}*/
+	}
 	
 	public FormProposal passContract() {
 		ncontrato.click();

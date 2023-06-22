@@ -1,252 +1,505 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="0" failed="0" skipped="10">
+<testng-results ignored="0" total="10" passed="6" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-09T09:28:27 COT" name="Data Driven Basics" finished-at="2023-06-09T09:28:28 COT" duration-ms="585">
+  <suite started-at="2023-06-21T20:01:53 COT" name="Data Driven Basics" finished-at="2023-06-22T10:40:12 COT" duration-ms="52699347">
     <groups>
     </groups>
-    <test started-at="2023-06-09T09:28:27 COT" name="App Manager Login Test" finished-at="2023-06-09T09:28:27 COT" duration-ms="32">
+    <test started-at="2023-06-21T20:01:53 COT" name="App Manager Login Test" finished-at="2023-06-21T20:02:14 COT" duration-ms="21223">
       <class name="org.meto.appium.tests.TFLogin">
-        <test-method signature="FillForm()[pri:0, instance:org.meto.appium.tests.TFLogin@5dd1c9f2]" started-at="2023-06-09T09:28:27 COT" name="FillForm" finished-at="2023-06-09T09:28:27 COT" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FillForm -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFLogin@5dd1c9f2]" started-at="2023-06-09T09:28:27 COT" name="beforeMethod" finished-at="2023-06-09T09:28:27 COT" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-      </class> <!-- org.meto.appium.tests.TFLogin -->
-    </test> <!-- App Manager Login Test -->
-    <test started-at="2023-06-09T09:28:28 COT" name="Prospect Test" finished-at="2023-06-09T09:28:28 COT" duration-ms="0">
-      <class name="org.meto.appium.tests.TFProspect">
-        <test-method signature="FillProspect()[pri:0, instance:org.meto.appium.tests.TFProspect@76012793]" started-at="2023-06-09T09:28:28 COT" name="FillProspect" finished-at="2023-06-09T09:28:28 COT" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FillProspect -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFProspect@76012793]" started-at="2023-06-09T09:28:28 COT" name="beforeMethod" finished-at="2023-06-09T09:28:28 COT" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-      </class> <!-- org.meto.appium.tests.TFProspect -->
-    </test> <!-- Prospect Test -->
-    <test started-at="2023-06-09T09:28:28 COT" name="Customer Test" finished-at="2023-06-09T09:28:28 COT" duration-ms="0">
-      <class name="org.meto.appium.tests.TFCustomer">
-        <test-method signature="FillCustomer()[pri:0, instance:org.meto.appium.tests.TFCustomer@7a1a3478]" started-at="2023-06-09T09:28:28 COT" name="FillCustomer" finished-at="2023-06-09T09:28:28 COT" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FillCustomer -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFCustomer@7a1a3478]" started-at="2023-06-09T09:28:28 COT" name="beforeMethod" finished-at="2023-06-09T09:28:28 COT" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-      </class> <!-- org.meto.appium.tests.TFCustomer -->
-    </test> <!-- Customer Test -->
-    <test started-at="2023-06-09T09:28:28 COT" name="Business Test" finished-at="2023-06-09T09:28:28 COT" duration-ms="16">
-      <class name="org.meto.appium.tests.TFBusiness">
-        <test-method signature="FillBusiness()[pri:0, instance:org.meto.appium.tests.TFBusiness@25bfcafd]" started-at="2023-06-09T09:28:28 COT" name="FillBusiness" finished-at="2023-06-09T09:28:28 COT" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FillBusiness -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFBusiness@25bfcafd]" started-at="2023-06-09T09:28:28 COT" name="beforeMethod" finished-at="2023-06-09T09:28:28 COT" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-      </class> <!-- org.meto.appium.tests.TFBusiness -->
-    </test> <!-- Business Test -->
-    <test started-at="2023-06-09T09:28:28 COT" name="Rse Test" finished-at="2023-06-09T09:28:28 COT" duration-ms="0">
-      <class name="org.meto.appium.tests.TFRse">
-        <test-method signature="FillRse()[pri:0, instance:org.meto.appium.tests.TFRse@623e088f]" started-at="2023-06-09T09:28:28 COT" name="FillRse" finished-at="2023-06-09T09:28:28 COT" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FillRse -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFRse@623e088f]" started-at="2023-06-09T09:28:28 COT" name="beforeMethod" finished-at="2023-06-09T09:28:28 COT" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-      </class> <!-- org.meto.appium.tests.TFRse -->
-    </test> <!-- Rse Test -->
-    <test started-at="2023-06-09T09:28:28 COT" name="Proposal Test" finished-at="2023-06-09T09:28:28 COT" duration-ms="0">
-      <class name="org.meto.appium.tests.TFProposal">
-        <test-method signature="FillProposal()[pri:0, instance:org.meto.appium.tests.TFProposal@2d6764b2]" started-at="2023-06-09T09:28:28 COT" name="FillProposal" finished-at="2023-06-09T09:28:28 COT" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FillProposal -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFProposal@2d6764b2]" started-at="2023-06-09T09:28:28 COT" name="beforeMethod" finished-at="2023-06-09T09:28:28 COT" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-      </class> <!-- org.meto.appium.tests.TFProposal -->
-    </test> <!-- Proposal Test -->
-    <test started-at="2023-06-09T09:28:28 COT" name="Contract Test" finished-at="2023-06-09T09:28:28 COT" duration-ms="0">
-      <class name="org.meto.appium.tests.TFContract">
-        <test-method signature="FillContract()[pri:0, instance:org.meto.appium.tests.TFContract@13d73fa]" started-at="2023-06-09T09:28:28 COT" name="FillContract" finished-at="2023-06-09T09:28:28 COT" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FillContract -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFContract@13d73fa]" started-at="2023-06-09T09:28:28 COT" name="beforeMethod" finished-at="2023-06-09T09:28:28 COT" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-      </class> <!-- org.meto.appium.tests.TFContract -->
-    </test> <!-- Contract Test -->
-    <test started-at="2023-06-09T09:28:28 COT" name="Signature Test" finished-at="2023-06-09T09:28:28 COT" duration-ms="0">
-      <class name="org.meto.appium.tests.TFSignature">
-        <test-method signature="FillSignature()[pri:0, instance:org.meto.appium.tests.TFSignature@3ed242a4]" started-at="2023-06-09T09:28:28 COT" name="FillSignature" finished-at="2023-06-09T09:28:28 COT" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FillSignature -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFSignature@3ed242a4]" started-at="2023-06-09T09:28:28 COT" name="beforeMethod" finished-at="2023-06-09T09:28:28 COT" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-      </class> <!-- org.meto.appium.tests.TFSignature -->
-    </test> <!-- Signature Test -->
-    <test started-at="2023-06-09T09:28:28 COT" name="Guarantor Test" finished-at="2023-06-09T09:28:28 COT" duration-ms="0">
-      <class name="org.meto.appium.tests.TFGuarantor">
-        <test-method signature="FillGuarantor()[pri:0, instance:org.meto.appium.tests.TFGuarantor@13f95696]" started-at="2023-06-09T09:28:28 COT" name="FillGuarantor" finished-at="2023-06-09T09:28:28 COT" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FillGuarantor -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFGuarantor@13f95696]" started-at="2023-06-09T09:28:28 COT" name="beforeMethod" finished-at="2023-06-09T09:28:28 COT" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-      </class> <!-- org.meto.appium.tests.TFGuarantor -->
-    </test> <!-- Guarantor Test -->
-    <test started-at="2023-06-09T09:28:28 COT" name="Customer Guarantor Test" finished-at="2023-06-09T09:28:28 COT" duration-ms="16">
-      <class name="org.meto.appium.tests.TFCustomerGuarantor">
-        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:org.meto.appium.tests.TFCustomerGuarantor@ebaa6cb]" started-at="2023-06-09T09:28:06 COT" name="setup" finished-at="2023-06-09T09:28:27 COT" duration-ms="21224" status="FAIL">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFLogin@5dd1c9f2]" started-at="2023-06-21T20:01:53 COT" name="beforeMethod" finished-at="2023-06-21T20:01:53 COT" duration-ms="21" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@424de326]]>
+                <![CDATA[public void org.meto.appium.tests.TFLogin.FillForm() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20178ms. 
-Host info: host: 'PERU-METO', ip: '10.6.116.38'
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[{appium:udid=5200fa184e619579, appium:ignoreHiddenApiPolicyError=true, appium:chromedriverExecutable=C:\code\AppiumFrameworkSurgir3//src//test//resources//driver//chromedriver, appium:appWaitActivity=.ui.login.LoginActivity,.ui.splash.SplashActivity, appium:deviceName=samsung SM-T395, platformName=ANDROID, appium:automationName=UIAutomator2, appium:enableMultiWindows=true, appium:app=C:\code\AppiumFrameworkSurgir3//src//test//resources//app//Surgir_debug_4.9.0_Release4.9.0.apk}], desiredCapabilities=Capabilities {appium:app: C:\code\AppiumFrameworkSurg..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\code\AppiumFrameworkSurg..., appium:deviceName: samsung SM-T395, appium:enableMultiWindows: true, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}}]
-Capabilities {appium:app: C:\code\AppiumFrameworkSurg..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\code\AppiumFrameworkSurg..., appium:deviceName: samsung SM-T395, appium:enableMultiWindows: true, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20178ms. 
-Host info: host: 'PERU-METO', ip: '10.6.116.38'
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[{appium:udid=5200fa184e619579, appium:ignoreHiddenApiPolicyError=true, appium:chromedriverExecutable=C:\code\AppiumFrameworkSurgir3//src//test//resources//driver//chromedriver, appium:appWaitActivity=.ui.login.LoginActivity,.ui.splash.SplashActivity, appium:deviceName=samsung SM-T395, platformName=ANDROID, appium:automationName=UIAutomator2, appium:enableMultiWindows=true, appium:app=C:\code\AppiumFrameworkSurgir3//src//test//resources//app//Surgir_debug_4.9.0_Release4.9.0.apk}], desiredCapabilities=Capabilities {appium:app: C:\code\AppiumFrameworkSurg..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\code\AppiumFrameworkSurg..., appium:deviceName: samsung SM-T395, appium:enableMultiWindows: true, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}}]
-Capabilities {appium:app: C:\code\AppiumFrameworkSurg..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\code\AppiumFrameworkSurg..., appium:deviceName: samsung SM-T395, appium:enableMultiWindows: true, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
-at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
-at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
-at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
-at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
-at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
-at org.meto.appium.base.TestBase.setup(TestBase.java:71)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="FillCustomerGuarantor()[pri:0, instance:org.meto.appium.tests.TFCustomerGuarantor@ebaa6cb]" started-at="2023-06-09T09:28:28 COT" name="FillCustomerGuarantor" finished-at="2023-06-09T09:28:28 COT" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20178ms. 
-Host info: host: 'PERU-METO', ip: '10.6.116.38'
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[{appium:udid=5200fa184e619579, appium:ignoreHiddenApiPolicyError=true, appium:chromedriverExecutable=C:\code\AppiumFrameworkSurgir3//src//test//resources//driver//chromedriver, appium:appWaitActivity=.ui.login.LoginActivity,.ui.splash.SplashActivity, appium:deviceName=samsung SM-T395, platformName=ANDROID, appium:automationName=UIAutomator2, appium:enableMultiWindows=true, appium:app=C:\code\AppiumFrameworkSurgir3//src//test//resources//app//Surgir_debug_4.9.0_Release4.9.0.apk}], desiredCapabilities=Capabilities {appium:app: C:\code\AppiumFrameworkSurg..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\code\AppiumFrameworkSurg..., appium:deviceName: samsung SM-T395, appium:enableMultiWindows: true, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}}]
-Capabilities {appium:app: C:\code\AppiumFrameworkSurg..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\code\AppiumFrameworkSurg..., appium:deviceName: samsung SM-T395, appium:enableMultiWindows: true, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20178ms. 
-Host info: host: 'PERU-METO', ip: '10.6.116.38'
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[{appium:udid=5200fa184e619579, appium:ignoreHiddenApiPolicyError=true, appium:chromedriverExecutable=C:\code\AppiumFrameworkSurgir3//src//test//resources//driver//chromedriver, appium:appWaitActivity=.ui.login.LoginActivity,.ui.splash.SplashActivity, appium:deviceName=samsung SM-T395, platformName=ANDROID, appium:automationName=UIAutomator2, appium:enableMultiWindows=true, appium:app=C:\code\AppiumFrameworkSurgir3//src//test//resources//app//Surgir_debug_4.9.0_Release4.9.0.apk}], desiredCapabilities=Capabilities {appium:app: C:\code\AppiumFrameworkSurg..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\code\AppiumFrameworkSurg..., appium:deviceName: samsung SM-T395, appium:enableMultiWindows: true, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}}]
-Capabilities {appium:app: C:\code\AppiumFrameworkSurg..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\code\AppiumFrameworkSurg..., appium:deviceName: samsung SM-T395, appium:enableMultiWindows: true, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
-at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
-at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
-at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
-at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
-at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
-at org.meto.appium.base.TestBase.setup(TestBase.java:71)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FillCustomerGuarantor -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFCustomerGuarantor@ebaa6cb]" started-at="2023-06-09T09:28:28 COT" name="beforeMethod" finished-at="2023-06-09T09:28:28 COT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:org.meto.appium.tests.TFCustomerGuarantor@ebaa6cb]" started-at="2023-06-09T09:28:28 COT" name="teardown" finished-at="2023-06-09T09:28:28 COT" duration-ms="0" status="SKIP">
+        <test-method signature="FillForm()[pri:0, instance:org.meto.appium.tests.TFLogin@5dd1c9f2]" started-at="2023-06-21T20:01:53 COT" name="FillForm" finished-at="2023-06-21T20:02:14 COT" duration-ms="21170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm -->
+      </class> <!-- org.meto.appium.tests.TFLogin -->
+    </test> <!-- App Manager Login Test -->
+    <test started-at="2023-06-21T20:02:14 COT" name="Prospect Test" finished-at="2023-06-21T20:03:56 COT" duration-ms="102244">
+      <class name="org.meto.appium.tests.TFProspect">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFProspect@76012793]" started-at="2023-06-21T20:02:14 COT" name="beforeMethod" finished-at="2023-06-21T20:02:14 COT" duration-ms="37" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void org.meto.appium.tests.TFProspect.FillProspect() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="FillProspect()[pri:0, instance:org.meto.appium.tests.TFProspect@76012793]" started-at="2023-06-21T20:02:14 COT" name="FillProspect" finished-at="2023-06-21T20:03:56 COT" duration-ms="101456" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [51a9d66a-dc61-452e-beef-be5341f7876b, findElement {using=id, value=pe.com.surgir.surgirapp:id/id_segment}]
+Capabilities {appium:app: C:\code\AppiumFrameworkSurg..., appium:appPackage: pe.com.surgir.surgirapp, appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\code\AppiumFrameworkSurg..., appium:databaseEnabled: false, appium:desired: {app: C:\code\AppiumFrameworkSurg..., appWaitActivity: .ui.login.LoginActivity,.ui..., automationName: UIAutomator2, chromedriverExecutable: C:\code\AppiumFrameworkSurg..., deviceName: samsung SM-T395, ignoreHiddenApiPolicyError: true, platformName: ANDROID, udid: 5200fa184e619579}, appium:deviceApiLevel: 28, appium:deviceManufacturer: samsung, appium:deviceModel: SM-T395, appium:deviceName: 5200fa184e619579, appium:deviceScreenDensity: 213, appium:deviceScreenSize: 800x1280, appium:deviceUDID: 5200fa184e619579, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 1.3312501, appium:platformVersion: 9, appium:statBarHeight: 32, appium:takesScreenshot: true, appium:udid: 5200fa184e619579, appium:viewportRect: {height: 1248, left: 0, top: 32, width: 800}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 51a9d66a-dc61-452e-beef-be5341f7876b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [51a9d66a-dc61-452e-beef-be5341f7876b, findElement {using=id, value=pe.com.surgir.surgirapp:id/id_segment}]
+Capabilities {appium:app: C:\code\AppiumFrameworkSurg..., appium:appPackage: pe.com.surgir.surgirapp, appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\code\AppiumFrameworkSurg..., appium:databaseEnabled: false, appium:desired: {app: C:\code\AppiumFrameworkSurg..., appWaitActivity: .ui.login.LoginActivity,.ui..., automationName: UIAutomator2, chromedriverExecutable: C:\code\AppiumFrameworkSurg..., deviceName: samsung SM-T395, ignoreHiddenApiPolicyError: true, platformName: ANDROID, udid: 5200fa184e619579}, appium:deviceApiLevel: 28, appium:deviceManufacturer: samsung, appium:deviceModel: SM-T395, appium:deviceName: 5200fa184e619579, appium:deviceScreenDensity: 213, appium:deviceScreenSize: 800x1280, appium:deviceUDID: 5200fa184e619579, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 1.3312501, appium:platformVersion: 9, appium:statBarHeight: 32, appium:takesScreenshot: true, appium:udid: 5200fa184e619579, appium:viewportRect: {height: 1248, left: 0, top: 32, width: 800}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 51a9d66a-dc61-452e-beef-be5341f7876b
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.meto.appium.pages.FormProspect.bcontinuarValid(FormProspect.java:233)
+at org.meto.appium.tests.TFProspect.FillProspect(TFProspect.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillProspect -->
+      </class> <!-- org.meto.appium.tests.TFProspect -->
+    </test> <!-- Prospect Test -->
+    <test started-at="2023-06-21T20:03:56 COT" name="Customer Test" finished-at="2023-06-21T20:08:23 COT" duration-ms="266197">
+      <class name="org.meto.appium.tests.TFCustomer">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFCustomer@7a1a3478]" started-at="2023-06-21T20:03:56 COT" name="beforeMethod" finished-at="2023-06-21T20:03:57 COT" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.meto.appium.tests.TFCustomer.FillCustomer() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="FillCustomer()[pri:0, instance:org.meto.appium.tests.TFCustomer@7a1a3478]" started-at="2023-06-21T20:03:57 COT" name="FillCustomer" finished-at="2023-06-21T20:08:22 COT" duration-ms="265425" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidElementStateException">
+            <message>
+              <![CDATA[Cannot perform TouchMove action at (400, 128)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [51a9d66a-dc61-452e-beef-be5341f7876b, performTouchAction {actions=[{action=press, options={x=400, y=512}}, {action=moveTo, options={x=400, y=128}}, {action=release, options={}}]}]
+Capabilities {appium:app: C:\code\AppiumFrameworkSurg..., appium:appPackage: pe.com.surgir.surgirapp, appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\code\AppiumFrameworkSurg..., appium:databaseEnabled: false, appium:desired: {app: C:\code\AppiumFrameworkSurg..., appWaitActivity: .ui.login.LoginActivity,.ui..., automationName: UIAutomator2, chromedriverExecutable: C:\code\AppiumFrameworkSurg..., deviceName: samsung SM-T395, ignoreHiddenApiPolicyError: true, platformName: ANDROID, udid: 5200fa184e619579}, appium:deviceApiLevel: 28, appium:deviceManufacturer: samsung, appium:deviceModel: SM-T395, appium:deviceName: 5200fa184e619579, appium:deviceScreenDensity: 213, appium:deviceScreenSize: 800x1280, appium:deviceUDID: 5200fa184e619579, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 1.3312501, appium:platformVersion: 9, appium:statBarHeight: 32, appium:takesScreenshot: true, appium:udid: 5200fa184e619579, appium:viewportRect: {height: 1248, left: 0, top: 32, width: 800}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 51a9d66a-dc61-452e-beef-be5341f7876b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidElementStateException: Cannot perform TouchMove action at (400, 128)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [51a9d66a-dc61-452e-beef-be5341f7876b, performTouchAction {actions=[{action=press, options={x=400, y=512}}, {action=moveTo, options={x=400, y=128}}, {action=release, options={}}]}]
+Capabilities {appium:app: C:\code\AppiumFrameworkSurg..., appium:appPackage: pe.com.surgir.surgirapp, appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\code\AppiumFrameworkSurg..., appium:databaseEnabled: false, appium:desired: {app: C:\code\AppiumFrameworkSurg..., appWaitActivity: .ui.login.LoginActivity,.ui..., automationName: UIAutomator2, chromedriverExecutable: C:\code\AppiumFrameworkSurg..., deviceName: samsung SM-T395, ignoreHiddenApiPolicyError: true, platformName: ANDROID, udid: 5200fa184e619579}, appium:deviceApiLevel: 28, appium:deviceManufacturer: samsung, appium:deviceModel: SM-T395, appium:deviceName: 5200fa184e619579, appium:deviceScreenDensity: 213, appium:deviceScreenSize: 800x1280, appium:deviceUDID: 5200fa184e619579, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 1.3312501, appium:platformVersion: 9, appium:statBarHeight: 32, appium:takesScreenshot: true, appium:udid: 5200fa184e619579, appium:viewportRect: {height: 1248, left: 0, top: 32, width: 800}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 51a9d66a-dc61-452e-beef-be5341f7876b
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:267)
+at io.appium.java_client.PerformsTouchActions.performTouchAction(PerformsTouchActions.java:54)
+at io.appium.java_client.TouchAction.perform(TouchAction.java:196)
+at org.meto.appium.utils.AndroidActions.swipeScreen(AndroidActions.java:742)
+at org.meto.appium.pages.FormCustomer.swipeScreenOneCustomer(FormCustomer.java:248)
+at org.meto.appium.tests.TFCustomer.FillCustomer(TFCustomer.java:84)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidElementStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillCustomer -->
+      </class> <!-- org.meto.appium.tests.TFCustomer -->
+    </test> <!-- Customer Test -->
+    <test started-at="2023-06-21T20:08:23 COT" name="Business Test" finished-at="2023-06-21T20:08:51 COT" duration-ms="28210">
+      <class name="org.meto.appium.tests.TFBusiness">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFBusiness@25bfcafd]" started-at="2023-06-21T20:08:23 COT" name="beforeMethod" finished-at="2023-06-21T20:08:23 COT" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.meto.appium.tests.TFBusiness.FillBusiness() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="FillBusiness()[pri:0, instance:org.meto.appium.tests.TFBusiness@25bfcafd]" started-at="2023-06-21T20:08:23 COT" name="FillBusiness" finished-at="2023-06-21T20:08:51 COT" duration-ms="28201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillBusiness -->
+      </class> <!-- org.meto.appium.tests.TFBusiness -->
+    </test> <!-- Business Test -->
+    <test started-at="2023-06-21T20:08:51 COT" name="Rse Test" finished-at="2023-06-21T20:11:57 COT" duration-ms="185524">
+      <class name="org.meto.appium.tests.TFRse">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFRse@623e088f]" started-at="2023-06-21T20:08:51 COT" name="beforeMethod" finished-at="2023-06-21T20:08:51 COT" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.meto.appium.tests.TFRse.FillRse() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="FillRse()[pri:0, instance:org.meto.appium.tests.TFRse@623e088f]" started-at="2023-06-21T20:08:51 COT" name="FillRse" finished-at="2023-06-21T20:11:57 COT" duration-ms="185513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillRse -->
+      </class> <!-- org.meto.appium.tests.TFRse -->
+    </test> <!-- Rse Test -->
+    <test started-at="2023-06-21T20:11:57 COT" name="Proposal Test" finished-at="2023-06-21T20:13:45 COT" duration-ms="108272">
+      <class name="org.meto.appium.tests.TFProposal">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFProposal@2d6764b2]" started-at="2023-06-21T20:11:57 COT" name="beforeMethod" finished-at="2023-06-21T20:11:57 COT" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.meto.appium.tests.TFProposal.FillProposal() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="FillProposal()[pri:0, instance:org.meto.appium.tests.TFProposal@2d6764b2]" started-at="2023-06-21T20:11:57 COT" name="FillProposal" finished-at="2023-06-21T20:13:45 COT" duration-ms="108264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillProposal -->
+      </class> <!-- org.meto.appium.tests.TFProposal -->
+    </test> <!-- Proposal Test -->
+    <test started-at="2023-06-21T20:13:45 COT" name="Contract Test" finished-at="2023-06-21T20:14:16 COT" duration-ms="31335">
+      <class name="org.meto.appium.tests.TFContract">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFContract@13d73fa]" started-at="2023-06-21T20:13:45 COT" name="beforeMethod" finished-at="2023-06-21T20:13:45 COT" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.meto.appium.tests.TFContract.FillContract() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="FillContract()[pri:0, instance:org.meto.appium.tests.TFContract@13d73fa]" started-at="2023-06-21T20:13:45 COT" name="FillContract" finished-at="2023-06-21T20:14:16 COT" duration-ms="31328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillContract -->
+      </class> <!-- org.meto.appium.tests.TFContract -->
+    </test> <!-- Contract Test -->
+    <test started-at="2023-06-21T20:14:16 COT" name="Signature Test" finished-at="2023-06-21T20:21:54 COT" duration-ms="457392">
+      <class name="org.meto.appium.tests.TFSignature">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFSignature@3ed242a4]" started-at="2023-06-21T20:14:16 COT" name="beforeMethod" finished-at="2023-06-21T20:14:16 COT" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.meto.appium.tests.TFSignature.FillSignature() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="FillSignature()[pri:0, instance:org.meto.appium.tests.TFSignature@3ed242a4]" started-at="2023-06-21T20:14:16 COT" name="FillSignature" finished-at="2023-06-21T20:21:54 COT" duration-ms="457373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillSignature -->
+      </class> <!-- org.meto.appium.tests.TFSignature -->
+    </test> <!-- Signature Test -->
+    <test started-at="2023-06-21T20:21:54 COT" name="Guarantor Test" finished-at="2023-06-21T20:24:14 COT" duration-ms="140604">
+      <class name="org.meto.appium.tests.TFGuarantor">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFGuarantor@13f95696]" started-at="2023-06-21T20:21:54 COT" name="beforeMethod" finished-at="2023-06-21T20:21:54 COT" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.meto.appium.tests.TFGuarantor.FillGuarantor() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="FillGuarantor()[pri:0, instance:org.meto.appium.tests.TFGuarantor@13f95696]" started-at="2023-06-21T20:21:54 COT" name="FillGuarantor" finished-at="2023-06-21T20:24:14 COT" duration-ms="139921" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [51a9d66a-dc61-452e-beef-be5341f7876b, findElement {using=-android uiautomator, value=new UiScrollable(new UiSelector().resourceId("pe.com.surgir.surgirapp:id/atomicNumberDefinition")).scrollIntoView(new UiSelector().textMatches("Autorización de uso de datos personales").instance(0))}]
+Capabilities {appium:app: C:\code\AppiumFrameworkSurg..., appium:appPackage: pe.com.surgir.surgirapp, appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\code\AppiumFrameworkSurg..., appium:databaseEnabled: false, appium:desired: {app: C:\code\AppiumFrameworkSurg..., appWaitActivity: .ui.login.LoginActivity,.ui..., automationName: UIAutomator2, chromedriverExecutable: C:\code\AppiumFrameworkSurg..., deviceName: samsung SM-T395, ignoreHiddenApiPolicyError: true, platformName: ANDROID, udid: 5200fa184e619579}, appium:deviceApiLevel: 28, appium:deviceManufacturer: samsung, appium:deviceModel: SM-T395, appium:deviceName: 5200fa184e619579, appium:deviceScreenDensity: 213, appium:deviceScreenSize: 800x1280, appium:deviceUDID: 5200fa184e619579, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 1.3312501, appium:platformVersion: 9, appium:statBarHeight: 32, appium:takesScreenshot: true, appium:udid: 5200fa184e619579, appium:viewportRect: {height: 1248, left: 0, top: 32, width: 800}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 51a9d66a-dc61-452e-beef-be5341f7876b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [51a9d66a-dc61-452e-beef-be5341f7876b, findElement {using=-android uiautomator, value=new UiScrollable(new UiSelector().resourceId("pe.com.surgir.surgirapp:id/atomicNumberDefinition")).scrollIntoView(new UiSelector().textMatches("Autorización de uso de datos personales").instance(0))}]
+Capabilities {appium:app: C:\code\AppiumFrameworkSurg..., appium:appPackage: pe.com.surgir.surgirapp, appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\code\AppiumFrameworkSurg..., appium:databaseEnabled: false, appium:desired: {app: C:\code\AppiumFrameworkSurg..., appWaitActivity: .ui.login.LoginActivity,.ui..., automationName: UIAutomator2, chromedriverExecutable: C:\code\AppiumFrameworkSurg..., deviceName: samsung SM-T395, ignoreHiddenApiPolicyError: true, platformName: ANDROID, udid: 5200fa184e619579}, appium:deviceApiLevel: 28, appium:deviceManufacturer: samsung, appium:deviceModel: SM-T395, appium:deviceName: 5200fa184e619579, appium:deviceScreenDensity: 213, appium:deviceScreenSize: 800x1280, appium:deviceUDID: 5200fa184e619579, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 1.3312501, appium:platformVersion: 9, appium:statBarHeight: 32, appium:takesScreenshot: true, appium:udid: 5200fa184e619579, appium:viewportRect: {height: 1248, left: 0, top: 32, width: 800}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 51a9d66a-dc61-452e-beef-be5341f7876b
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.meto.appium.utils.AndroidActionsGuarantor.scrolluseData(AndroidActionsGuarantor.java:38)
+at org.meto.appium.pages.FormGuarantor.scrollData(FormGuarantor.java:195)
+at org.meto.appium.tests.TFGuarantor.FillGuarantor(TFGuarantor.java:69)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillGuarantor -->
+      </class> <!-- org.meto.appium.tests.TFGuarantor -->
+    </test> <!-- Guarantor Test -->
+    <test started-at="2023-06-21T20:24:14 COT" name="Customer Guarantor Test" finished-at="2023-06-22T10:40:12 COT" duration-ms="51357643">
+      <class name="org.meto.appium.tests.TFCustomerGuarantor">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:org.meto.appium.tests.TFCustomerGuarantor@ebaa6cb]" started-at="2023-06-21T20:01:24 COT" name="setup" finished-at="2023-06-21T20:01:53 COT" duration-ms="28579" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@278150a1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFCustomerGuarantor@ebaa6cb]" started-at="2023-06-21T20:24:14 COT" name="beforeMethod" finished-at="2023-06-21T20:24:14 COT" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.meto.appium.tests.TFCustomerGuarantor.FillCustomerGuarantor() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="FillCustomerGuarantor()[pri:0, instance:org.meto.appium.tests.TFCustomerGuarantor@ebaa6cb]" started-at="2023-06-21T20:24:14 COT" name="FillCustomerGuarantor" finished-at="2023-06-22T10:40:11 COT" duration-ms="51357009" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.EditText[@text='Grado de instruccion']})]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.EditText[@text='Grado de instruccion']})
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:125)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy21.click(Unknown Source)
+at org.meto.appium.pages.FormCustomerGuarantor.gradoInstruccion(FormCustomerGuarantor.java:248)
+at org.meto.appium.tests.TFCustomerGuarantor.FillCustomerGuarantor(TFCustomerGuarantor.java:61)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@b889cb6 (tried for 5000 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:263)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:98)
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:118)
+... 32 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: //android.widget.EditText[@text='Grado de instruccion']})
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: driver.version: RemoteWebDriver
+at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:77)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:136)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:136)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$findElement$0(AppiumElementLocator.java:119)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:171)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:164)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+... 34 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillCustomerGuarantor -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:org.meto.appium.tests.TFCustomerGuarantor@ebaa6cb]" started-at="2023-06-22T10:40:12 COT" name="teardown" finished-at="2023-06-22T10:40:13 COT" duration-ms="761" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.meto.appium.base.TestBase.teardown(TestBase.java:88)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:404)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

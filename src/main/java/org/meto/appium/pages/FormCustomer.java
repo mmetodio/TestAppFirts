@@ -340,11 +340,14 @@ public class FormCustomer extends AndroidActions{
 	}
 	
 	public FormCustomer departamentos() {
-		//departamen.click();
+		departamen.click();
 	//	scrollToDepart();
-		scrollToTest();
+	//	scrollToTest();
+		//scrollToTestTwo();
 		//swipeScreen();
 	//	departament1();
+		departament2();
+	//	departament();
 		return this;
 		
 	}

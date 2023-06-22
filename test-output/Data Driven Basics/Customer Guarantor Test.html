@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Customer Guarantor Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Jun 09 09:28:28 COT 2023</td>
+<td>Started on:</td><td>Wed Jun 21 20:24:14 COT 2023</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (16 ms)</td>
+<tr><td>Total time:</td><td>51357 seconds (51357643 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -68,97 +68,7 @@ function toggleAllBoxes() {
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
 <table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='org.meto.appium.tests.TFCustomerGuarantor.setup()'><b>setup</b><br>Test class: org.meto.appium.tests.TFCustomerGuarantor<br>Parameters: org.testng.TestRunner@424de326</td>
-<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20178ms. 
-Host info: host: &apos;PERU-METO&apos;, ip: &apos;10.6.116.38&apos;
-Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.17&apos;
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[{appium:udid=5200fa184e619579, appium:ignoreHiddenApiPolicyError=true, appium:chromedriverExecutable=C:\code\AppiumFrameworkSurgir3//src//test//resources//driver//chromedriver, appium:appWaitActivity=.ui.login.LoginActivity,.ui.splash.SplashActivity, appium:deviceName=samsung SM-T395, platformName=ANDROID, appium:automationName=UIAutomator2, appium:enableMultiWindows=true, appium:app=C:\code\AppiumFrameworkSurgir3//src//test//resources//app//Surgir_debug_4.9.0_Release4.9.0.apk}], desiredCapabilities=Capabilities {appium:app: C:\code\AppiumFrameworkSurg..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\code\AppiumFrameworkSurg..., appium:deviceName: samsung SM-T395, appium:enableMultiWindows: true, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}}]
-Capabilities {appium:app: C:\code\AppiumFrameworkSurg..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\code\AppiumFrameworkSurg..., appium:deviceName: samsung SM-T395, appium:enableMultiWindows: true, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
-	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
-	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
-	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
-	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)
-	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
-	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:117)
-	at org.meto.appium.base.TestBase.setup(TestBase.java:71)
-... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace38603201", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace38603201'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20178ms. 
-Host info: host: &apos;PERU-METO&apos;, ip: &apos;10.6.116.38&apos;
-Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.17&apos;
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[{appium:udid=5200fa184e619579, appium:ignoreHiddenApiPolicyError=true, appium:chromedriverExecutable=C:\code\AppiumFrameworkSurgir3//src//test//resources//driver//chromedriver, appium:appWaitActivity=.ui.login.LoginActivity,.ui.splash.SplashActivity, appium:deviceName=samsung SM-T395, platformName=ANDROID, appium:automationName=UIAutomator2, appium:enableMultiWindows=true, appium:app=C:\code\AppiumFrameworkSurgir3//src//test//resources//app//Surgir_debug_4.9.0_Release4.9.0.apk}], desiredCapabilities=Capabilities {appium:app: C:\code\AppiumFrameworkSurg..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\code\AppiumFrameworkSurg..., appium:deviceName: samsung SM-T395, appium:enableMultiWindows: true, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}}]
-Capabilities {appium:app: C:\code\AppiumFrameworkSurg..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\code\AppiumFrameworkSurg..., appium:deviceName: samsung SM-T395, appium:enableMultiWindows: true, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
-	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
-	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
-	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)
-	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
-	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:117)
-	at org.meto.appium.base.TestBase.setup(TestBase.java:71)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>21</td>
-<td>org.meto.appium.tests.TFCustomerGuarantor@ebaa6cb</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='org.meto.appium.tests.TFCustomerGuarantor.beforeMethod()'><b>beforeMethod</b><br>Test class: org.meto.appium.tests.TFCustomerGuarantor</td>
-<td></td>
-<td>0</td>
-<td>org.meto.appium.tests.TFCustomerGuarantor@ebaa6cb</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -167,58 +77,64 @@ Capabilities {appium:app: C:\code\AppiumFrameworkSurg..., appium:appWaitActivity
 </tr>
 <tr>
 <td title='org.meto.appium.tests.TFCustomerGuarantor.FillCustomerGuarantor()'><b>FillCustomerGuarantor</b><br>Test class: org.meto.appium.tests.TFCustomerGuarantor</td>
-<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20178ms. 
-Host info: host: &apos;PERU-METO&apos;, ip: &apos;10.6.116.38&apos;
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.chained({By.xpath: //android.widget.EditText[@text=&apos;Grado de instruccion&apos;]})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:125)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy21.click(Unknown Source)
+	at org.meto.appium.pages.FormCustomerGuarantor.gradoInstruccion(FormCustomerGuarantor.java:248)
+	at org.meto.appium.tests.TFCustomerGuarantor.FillCustomerGuarantor(TFCustomerGuarantor.java:61)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@b889cb6 (tried for 5000 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:263)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:98)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:118)
+	... 32 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: //android.widget.EditText[@text=&apos;Grado de instruccion&apos;]})
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.17&apos;
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[{appium:udid=5200fa184e619579, appium:ignoreHiddenApiPolicyError=true, appium:chromedriverExecutable=C:\code\AppiumFrameworkSurgir3//src//test//resources//driver//chromedriver, appium:appWaitActivity=.ui.login.LoginActivity,.ui.splash.SplashActivity, appium:deviceName=samsung SM-T395, platformName=ANDROID, appium:automationName=UIAutomator2, appium:enableMultiWindows=true, appium:app=C:\code\AppiumFrameworkSurgir3//src//test//resources//app//Surgir_debug_4.9.0_Release4.9.0.apk}], desiredCapabilities=Capabilities {appium:app: C:\code\AppiumFrameworkSurg..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\code\AppiumFrameworkSurg..., appium:deviceName: samsung SM-T395, appium:enableMultiWindows: true, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}}]
-Capabilities {appium:app: C:\code\AppiumFrameworkSurg..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\code\AppiumFrameworkSurg..., appium:deviceName: samsung SM-T395, appium:enableMultiWindows: true, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
-	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
-	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
-	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
-	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)
-	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
-	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:117)
-	at org.meto.appium.base.TestBase.setup(TestBase.java:71)
-... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace123721308", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace123721308'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20178ms. 
-Host info: host: &apos;PERU-METO&apos;, ip: &apos;10.6.116.38&apos;
-Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.17&apos;
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[{appium:udid=5200fa184e619579, appium:ignoreHiddenApiPolicyError=true, appium:chromedriverExecutable=C:\code\AppiumFrameworkSurgir3//src//test//resources//driver//chromedriver, appium:appWaitActivity=.ui.login.LoginActivity,.ui.splash.SplashActivity, appium:deviceName=samsung SM-T395, platformName=ANDROID, appium:automationName=UIAutomator2, appium:enableMultiWindows=true, appium:app=C:\code\AppiumFrameworkSurgir3//src//test//resources//app//Surgir_debug_4.9.0_Release4.9.0.apk}], desiredCapabilities=Capabilities {appium:app: C:\code\AppiumFrameworkSurg..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\code\AppiumFrameworkSurg..., appium:deviceName: samsung SM-T395, appium:enableMultiWindows: true, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}}]
-Capabilities {appium:app: C:\code\AppiumFrameworkSurg..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\code\AppiumFrameworkSurg..., appium:deviceName: samsung SM-T395, appium:enableMultiWindows: true, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
-	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
-	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
-	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)
-	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
-	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:117)
-	at org.meto.appium.base.TestBase.setup(TestBase.java:71)
+Driver info: driver.version: RemoteWebDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:77)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:136)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:136)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$findElement$0(AppiumElementLocator.java:119)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:171)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:164)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 34 more
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace111281534", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace111281534'><pre>org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.chained({By.xpath: //android.widget.EditText[@text=&apos;Grado de instruccion&apos;]})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:125)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy21.click(Unknown Source)
+	at org.meto.appium.pages.FormCustomerGuarantor.gradoInstruccion(FormCustomerGuarantor.java:248)
+	at org.meto.appium.tests.TFCustomerGuarantor.FillCustomerGuarantor(TFCustomerGuarantor.java:61)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
 	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
@@ -229,8 +145,34 @@ Capabilities {appium:app: C:\code\AppiumFrameworkSurg..., appium:appWaitActivity
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@b889cb6 (tried for 5000 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:263)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:98)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:118)
+	... 32 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: //android.widget.EditText[@text=&apos;Grado de instruccion&apos;]})
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.17&apos;
+Driver info: driver.version: RemoteWebDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:77)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:136)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:136)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$findElement$0(AppiumElementLocator.java:119)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:171)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:164)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 34 more
 </pre></div></td>
-<td>0</td>
+<td>51357</td>
 <td>org.meto.appium.tests.TFCustomerGuarantor@ebaa6cb</td></tr>
 </table><p>
 </body>
